@@ -1,0 +1,956 @@
+employee_id,name,age,gender,department,job_role,city,education,experience_years,salary,performance_rating,overtime,work_mode,projects_handled,training_hours,promotion_status,attrition_status,joining_date
+EMP00124,Meera Nair,29,Female,Legal,Data Analist,Bhopal,B.Tech,10.0,1064010.0,3.0,sometimes,WFH,2.0,0,No,No,2018-09-04
+EMP00119,Amit Kumar,47,Other,Engineering,,Nagpur,M.Tech,9.2,823315.0,4.0,No,Hybrid,8.0,58,No,No,2014-06-15
+EMP00146,Sakshi Singh,38,Female,Marketing,Manager,Kolkata,Unknown,3.0,600000.0,4.0,No,,7.0,18,No,No,2021-06-10
+EMP00772,Rahul Patel,37,Female,Operations,Data Analist,Hydrabad,MBA,8.1,823315.0,3.0,Yes,Remote,11.0,40,Yes,No,2023-03-04
+EMP00331,Deepak Verma,53,Unknown,Customer Support,Manager,Bhopal,B.E.,20.0,634197.0,3.0,unknown,Remote,5.0,40,Yes,No,2021-09-16
+EMP00324,Aarav Sharma,38,Male,Marketing,Engineer,Bangalore,MCA,9.0,1343637.0,6.0,Yes,,0.0,27,No,No,2020-05-23
+EMP00149,Vivaan Verma,51,Male,Operations,Executive,Ahemdabad,B.Sc,5.0,823315.0,2.0,Yes,,0.0,24,No,No,2014-06-02
+EMP00862,Vivaan Verma,24,Other,Finance,Recruiter,Pune,BBA,5.0,823315.0,5.0,sometimes,Onsite,20.0,76,Yes,No,2025-09-29
+EMP00269,Ananya Sharma,25,Female,Engineering,Manager,Chennai,BBA,6.0,10000000.0,3.0,Yes,Hybrid,0.0,58,No,No,2019-08-15
+EMP00259,Siddharth Jain,29,Male,Engineering,Manager,Indore,MBA,10.0,1015752.0,3.0,Yes,,13.0,70,No,No,2025-12-06
+EMP00367,Meera Nair,22,Other,Sales,Data Analist,Chennai,MCA,3.0,651913.0,3.0,No,Remote,6.0,59,No,No,2022-04-01
+EMP00213,Sakshi Singh,50,Female,IT,,Jaipur,Graduate,11.3,1386881.0,3.0,Yes,Remote,8.0,56,Yes,No,2018-08-22
+EMP00758,Kavya Gupta,30,Male,Customer Support,Manager,Bhopal,B.Tech,6.8,1556280.0,4.0,Yes,Onsite,8.0,36,Yes,No,2017-06-04
+EMP00812,Deepak Verma,23,Male,R&D,Executive,Nagpur,B.Com,3.2,922336.0,6.0,Yes,Hybrid,5.0,0,Yes,No,
+EMP00254,Muskan Gupta,35,Female,R&D,Executive,Kolkata,PHD,12.4,1237199.0,5.0,Yes,unknown,1.0,68,Yes,Yes,2022-07-17
+EMP00002,Rahul Patel,58,Female,IT,Engineer,Unknown,BBA,30.0,1200000.0,5.0,No,Hybrid,6.0,48,Yes,No,2014-11-16
+EMP00369,Rahul Patel,55,Male,Engineering,,Nagpur,Masters,14.7,1363014.0,2.0,No,,3.0,52,Yes,Yes,2020-02-19
+EMP00421,Siddharth Jain,38,Unknown,R&D,Executive,Ahemdabad,B.E.,5.7,711979.0,3.0,Yes,Remote,1.0,29,Yes,No,2018-06-22
+EMP00152,Karan Joshi,50,Female,Operations,Executive,Indore,M.Com,6.5,704950.0,5.0,Yes,WFH,4.0,53,Yes,No,2016-01-20
+EMP00453,Riya Jain,42,Other,IT,Data Analist,Chennai,B.E.,2.6,860305.0,3.0,No,Hybrid,6.0,81,No,No,2023-11-14
+EMP00238,Deepak Verma,38,Other,Customer Support,Engineer,Delhi NCR,Unknown,6.8,1160314.0,4.0,No,Remote,4.0,24,No,Yes,
+EMP00306,Vivaan Verma,57,Male,HR,Executive,Nagpur,B.Tech,9.4,500000.0,1.0,No,Hybrid,4.0,44,Yes,No,2026-06-03
+EMP00870,Aditya-Singh,37,Female,,Business Development Executive,Indore,M.Com,0.0,150000.0,3.0,Yes,Remote,20.0,64,No,No,2018-11-12
+EMP00440,Muskan Gupta,28,Unknown,Marketing,Engineer,Bhopal,MBA,5.0,1250804.0,1.0,No,Hybrid,5.0,29,No,Yes,2025-01-16
+EMP00027,Nisha Roy,21,Other,Customer Support,Executive,Bangalore,PHD,3.5,951152.0,5.0,No,Onsite,7.0,42,Yes,No,2026-06-29
+EMP00485,Isha Kapoor,24,Male,IT,Manager,Bhopal,B.E.,20.0,600000.0,2.0,Yes,Remote,9.0,11,No,No,2022-03-31
+EMP00102,Divya Joshi,44,Other,R&D,,Chennai,Graduate,0.2,1014047.0,2.0,Yes,unknown,7.0,25,No,No,2017-01-22
+EMP00800,Aditya Singh,30,Female,IT,Sales Executive,Bangalore,B.Tech,6.3,1090057.0,4.0,,Remote,8.0,32,No,Yes,2017-09-24
+EMP00334,Aarav Sharma,38,Male,IT,Engineer,Mumbai,M.Com,5.0,1001701.0,6.0,No,Onsite,0.0,37,Yes,No,2015-01-27
+EMP00104,Riya Jain,29,Other,Sales,Data Analist,Bhopal,MCA,10.0,823315.0,5.0,Yes,Hybrid,0.0,29,No,No,2015-05-30
+EMP00368,Ananya Sharma,29,Other,Marketing,Recruiter,Chennai,MCA,6.0,717651.0,6.0,No,Hybrid,7.0,43.0,No,No,2014-01-01
+EMP00742,Muskan Gupta,48,Female,Sales,Data Analist,Chennai,MBA,17.8,823315.0,5.0,Yes,Remote,5.0,67,Yes,No,2023-04-10
+EMP00240,Nisha Roy,26,Female,HR,Sales Executive,Bangalore,B.Sc,7.0,1184353.0,1.0,Yes,Remote,6.0,11,No,No,2022-11-03
+EMP00263,Vivaan Verma,22,Male,Customer Support,Executive,Indore,Diploma,6.8,540058.0,5.0,Yes,,3.0,20,No,No,2019-05-13
+EMP00244,Aarav Sharma,39,Other,HR,Data Analist,Bangalore,BBA,7.2,823315.0,1.0,Yes,WFH,0.0,20,No,No,2017-07-27
+EMP00423,Ritesh Kumar,52,Female,Operations,Engineer,Bangalore,B.E.,9.3,1339317.0,3.0,No,Hybrid,5.0,40,Yes,No,2019-10-18
+EMP00093,Siddharth Jain,56,Other,Finance,Manager,Indore,PHD,0.5,171222.0,3.0,Yes,Onsite,5.0,29,Yes,No,2014-10-18
+EMP00087,Vivaan Verma,26,Male,,Data Analist,Jaipur,Unknown,7.0,662209.0,1.0,No,Onsite,2.0,40,Yes,No,2020-07-29
+EMP00216,Deepak-Verma,51,Female,Finance,Executive,Jaipur,BBA,16.6,1703472.0,2.0,Yes,Remote,5.0,17,Yes,Yes,2014-02-22
+EMP00281,Pooja Yadav,59,Other,Marketing,Unknown,Pune,M.Tech,1.2,510761.0,3.0,No,Onsite,1.0,73,Yes,No,2019-06-06
+EMP00337,Deepak Verma,38,Other,Legal,Executive,Chennai,Diploma,2.8,734340.0,2.0,Yes,Remote,2.0,24,No,No,
+EMP00393,Aditya Singh,36,Female,Engineering,Manager,Hydrabad,B.Sc,16.2,823315.0,1.0,Yes,Remote,7.0,43,No,Yes,2025-01-02
+EMP00499,Arjun Gupta,17,Female,Marketing,Manager,Bangalore,Diploma,3.0,871762.0,4.0,No,Remote,20.0,77,Yes,No,2016-08-10
+EMP00712,Arjun Gupta,51,Female,IT,Data Analist,Indore,Unknown,8.2,750000.0,4.0,No,Hybrid,3.0,40,No,No,2019-01-11
+EMP00304,Arjun Gupta,23,Male,Finance,Data Analist,Hydrabad,M.Tech,4.0,493632.0,4.0,No,Hybrid,0.0,29,Yes,No,2017-06-05
+EMP00598,Meera Nair,38,Unknown,HR,Executive,Nagpur,MBA,20.0,961022.0,2.0,,Remote,8.0,71,Yes,No,2022-01-05
+EMP00031,Kavya Gupta,55,Unknown,Customer Support,Manager,Hydrabad,B.Sc,5.0,1356945.0,1.0,No,Hybrid,20.0,20,Yes,No,2016-01-09
+EMP00057,Aarav-Sharma,28,Female,Engineering,Manager,Delhi NCR,MCA,9.0,823315.0,1.0,Yes,Remote,8.0,1,Yes,No,
+EMP00133,Tanya Kapoor,38,Female,Legal,Engineer,Delhi NCR,Masters,13.2,1131569.0,3.0,Yes,Remote,10.0,-5,Yes,No,2018-03-09
+EMP00747,Ananya Sharma,35,Female,IT,Executive,Indore,B.Sc,15.5,1802345.0,6.0,No,Hybrid,2.0,96,Yes,No,2014-10-17
+EMP00696,Ananya Sharma,25,Female,Unknown,Data Analist,Delhi NCR,M.Com,6.0,869667.0,4.0,Yes,Remote,4.0,19,No,No,2018-01-01
+EMP00284,Akash Patel,38,Female,Operations,Engineer,Mumbai,PHD,6.8,1322258.0,6.0,Yes,Hybrid,5.0,15,No,No,
+EMP00828,Sneha Singh,37,Male,IT,Data Analist,Bhopal,Diploma,5.1,823315.0,5.0,Yes,Hybrid,3.0,43.0,No,No,2025-03-07
+EMP00163,Pooja Yadav,47,Male,Engineering,Manager,Mumbai,M.Tech,17.8,1159502.0,2.0,No,Hybrid,6.0,0,Yes,Yes,2026-06-20
+EMP00083,Manish Tiwari,27,Female,IT,Manager,Pune,B.Com,8.0,484141.0,4.0,No,WFH,5.0,25,No,No,2025-02-21
+EMP00593,Harsh Vardhan,29,Other,Operations,Executive,Delhi NCR,B.E.,10.0,500000.0,2.0,Yes,Onsite,7.0,98,Yes,No,2014-01-17
+EMP00251,Vivaan Verma,38,Male,Sales,Unknown,Mumbai,M.Tech,10.5,1015248.0,2.0,Yes,Hybrid,7.0,0,No,Yes,2024-07-15
+EMP00135,Ritesh Kumar,24,Male,IT,Data Analist,Kolkata,MBA,5.0,833683.0,2.0,No,Remote,7.0,12,No,No,2014-02-27
+EMP00326,Sneha-Singh,22,Female,Engineering,Data Analist,Hydrabad,B.Sc,6.8,601140.0,2.0,Yes,Onsite,2.0,105,No,No,2022-03-22
+EMP00225,Rohan Mehta,23,Other,HR,Quality Assurance,Unknown,MBA,4.0,500000.0,4.0,No,Onsite,2.0,27,No,Yes,
+EMP00199,Aarav Sharma,21,Other,R&D,Executive,Hydrabad,M.Tech,2.0,611709.0,4.0,No,Remote,5.0,35,Yes,Yes,2014-06-12
+EMP00443,Harsh Vardhan,22,Male,Finance,Engineer,Hydrabad,M.Tech,3.0,602489.0,2.0,Yes,Hybrid,3.0,43.0,No,No,2024-02-26
+EMP00200,Meera Nair,38,Other,IT,Data Analist,Nagpur,PHD,6.8,859687.0,2.0,Yes,Onsite,15.0,21,No,No,2018-05-06
+EMP00579,Arjun Gupta,58,Male,Customer Support,Manager,Bangalore,M.Tech,4.9,823315.0,3.0,No,Onsite,3.0,42,Yes,No,2018-07-07
+EMP00523,Siddharth  Jain,34,Male,Legal,Engineer,Kolkata,B.Com,5.0,1362360.0,3.0,Yes,WFH,5.0,36,No,No,2019-04-27
+EMP00252,Harsh Vardhan,60,Female,Marketing,Data Analist,Delhi NCR,BBA,9.6,944874.0,3.0,No,Hybrid,0.0,31,No,No,2025-11-02
+EMP00376,Vivaan Verma,46,Male,Customer Support,Engineer,Bhopal,Diploma,10.0,872845.0,4.0,Yes,Remote,5.0,19,Yes,No,2017-07-15
+EMP00248,Sneha Singh,43,Female,Customer Support,Engineer,Nagpur,MBA,4.4,500000.0,3.0,Yes,Remote,9.0,67,No,Yes,2020-05-30
+EMP00184,Muskan Gupta,54,Other,Marketing,Manager,Nagpur,B.E.,6.1,1521367.0,5.0,Yes,Remote,5.0,48,No,No,2025-04-13
+EMP00806,Priya Verma,32,Female,Sales,Manager,Ahemdabad,MBA,11.7,600000.0,1.0,No,Onsite,0.0,40,Yes,Yes,2019-09-27
+EMP00833,Tanya-Kapoor,47,Female,Operations,Manager,Bhopal,MCA,20.1,1868333.0,2.0,,Remote,8.0,38,Yes,No,2020-03-08
+EMP00047,Priya-Verma,32,Female,,Data Analist,Mumbai,PHD,13.0,650000.0,5.0,No,Office,7.0,56,No,No,2020-01-28
+EMP00831,Siddharth Jain,46,Female,HR,Executive,Hydrabad,Diploma,1.6,271410.0,2.0,Yes,Onsite,8.0,61,Yes,No,2024-12-19
+EMP00816,Isha Kapoor,36,Female,,Data Analist,Pune,PHD,5.6,823315.0,4.0,Yes,Onsite,1.0,16,No,No,2019-09-26
+EMP00212,Sanjay Mishra,31,Male,Customer Support,Executive,Delhi NCR,PHD,8.3,1077983.0,1.0,No,Remote,12.0,40,Yes,No,2022-10-08
+EMP00807,Priya Verma,57,Other,Finance,Engineer,Mumbai,B.Tech,2.3,150000.0,3.0,Yes,Hybrid,2.0,47,Yes,No,
+EMP00697,Ananya Sharma,37,Female,Finance,Manager,Hydrabad,B.E.,10.7,1141541.0,2.0,No,Remote,9.0,22,No,No,2019-01-19
+EMP00311,Nisha Roy,23,Other,Customer Support,Business Development Executive,Hydrabad,BBA,4.0,913816.0,1.0,No,Hybrid,11.0,40,Yes,No,2020-10-25
+EMP00532,Isha-Kapoor,25,Male,,Data Analist,Ahemdabad,Unknown,8.0,823315.0,3.0,Yes,Office,2.0,13,Yes,No,2026-02-05
+EMP00442,Divya Joshi,38,Unknown,IT,Manager,Indore,PHD,14.1,823315.0,5.0,Yes,Hybrid,4.0,3,Yes,No,2026-05-22
+EMP00361,Isha Kapoor,26,Other,Marketing,Data Analist,Bangalore,PHD,7.0,820687.0,1.0,Yes,Remote,8.0,-5,Yes,No,2021-06-30
+EMP00751,Neha Mehta,27,Female,IT,Engineer,Delhi NCR,B.Com,0.0,484951.0,4.0,No,Remote,0.0,45,No,No,
+EMP00814,Sakshi Singh,52,Other,IT,Engineer,Jaipur,BBA,10.5,652606.0,2.0,No,Hybrid,4.0,62,Yes,No,2018-10-30
+EMP00275,Sneha Singh,34,Male,IT,Manager,Pune,M.Com,15.0,1700121.0,1.0,Yes,Hybrid,11.0,91,Yes,No,2019-05-26
+EMP00491,Priya Verma,25,Female,Engineering,Manager,Indore,MCA,0.0,255676.0,3.0,No,,5.0,48,No,No,2025-01-29
+EMP00173,Sanjay Mishra,60,Other,Marketing,Data Analist,Hydrabad,Diploma,8.2,500000.0,10.0,Yes,Hybrid,5.0,56,Yes,No,2019-11-26
+EMP00092,Riya Jain,22,Other,HR,Manager,Delhi NCR,MBA,3.0,750000.0,9.0,No,unknown,3.0,68,No,Yes,
+EMP00459,Tanya Kapoor,43,Male,Marketing,Executive,Hydrabad,B.Tech,11.9,1274156.0,2.0,No,Remote,6.0,33,Yes,No,2022-04-08
+EMP00704,Manish Tiwari,29,Female,Finance,Engineer,Nagpur,B.E.,10.0,450000.0,5.0,,Onsite,5.0,84,Yes,Yes,2018-05-10
+EMP00679,Sanjay Mishra,38,Female,Legal,Data Analist,Ahemdabad,M.Com,13.3,1051989.0,4.0,No,Onsite,4.0,74,No,No,2022-02-12
+EMP00243,Karan Joshi,60,Male,Sales,Data Analist,Delhi NCR,MCA,30.0,552475.0,1.0,No,Onsite,4.0,72,No,Yes,2024-08-10
+EMP00373,Sanjay Mishra,41,Unknown,Legal,Executive,Indore,MCA,14.6,1759642.0,5.0,Yes,Remote,3.0,50,No,No,2021-09-16
+EMP00759,Divya Joshi,27,Female,Operations,Manager,Mumbai,BBA,3.5,450000.0,2.0,No,WFH,7.0,54,Yes,No,2018-06-25
+EMP00174,Sanjay-Mishra,23,Female,R&D,Executive,Indore,B.Com,4.0,422904.0,5.0,Yes,Hybrid,20.0,43.0,Yes,No,
+EMP00016,Rahul Patel,26,Other,Marketing,Executive,Jaipur,MCA,20.0,767530.0,3.0,No,WFH,2.0,75,No,No,2026-06-28
+EMP00798,Muskan Gupta,43,Other,Engineering,Data Analist,Jaipur,B.Sc,4.1,753615.0,4.0,Yes,Hybrid,5.0,52,Yes,No,2016-02-09
+EMP00890,Manish Tiwari,29,Other,,Data Analist,Mumbai,MBA,17.0,1131146.0,3.0,Yes,Onsite,6.0,65,Yes,No,2013-07-06
+EMP00891,Aarav Sharma,24,Female,Sales,Engineer,Jaipur,B.Com,5.0,1158319.0,6.0,Yes,Onsite,7.0,51,No,No,2013-10-28
+EMP00350,Kavya Gupta,23,Female,Marketing,Data Analist,Kolkata,B.Com,4.0,355185.0,5.0,No,Onsite,7.0,26,No,No,2016-11-01
+EMP00670,Vivaan Verma,38,Unknown,Sales,Executive,Mumbai,PHD,5.4,670916.0,5.0,Yes,Remote,12.0,34,No,No,2014-08-19
+EMP00247,Pooja Yadav,22,Other,Legal,Executive,Jaipur,B.Sc,0.2,192028.0,5.0,Yes,Remote,0.0,37,Yes,No,2021-10-12
+EMP00628,Neha Mehta,30,Male,HR,Executive,Nagpur,MBA,8.4,549851.0,5.0,No,Onsite,5.0,43,No,No,2024-09-01
+EMP00828,Sneha Singh,37,Male,Operations,Data Analist,Bhopal,Diploma,5.1,792515.0,5.0,Yes,Hybrid,3.0,43.0,No,No,2025-03-07
+EMP00844,Divya Joshi,45,Other,R&D,Manager,Kolkata,Unknown,10.8,1415686.0,10.0,No,WFH,5.0,45,No,No,2023-03-28
+EMP00568,Komal Sharma,57,Female,Operations,Engineer,Jaipur,M.Tech,5.5,1147184.0,5.0,Yes,Hybrid,2.0,45,Yes,No,2020-06-16
+EMP00728,Meera Nair,37,Female,R&D,Engineer,Unknown,PHD,13.5,823315.0,2.0,Yes,Remote,13.0,65,No,No,2015-08-08
+EMP00802,Muskan Gupta,30,Other,Finance,,Unknown,Diploma,10.0,295469.0,4.0,sometimes,Hybrid,5.0,0,Yes,No,2019-02-01
+EMP00626,Nisha Roy,46,Female,Legal,Manager,Delhi NCR,MCA,13.5,1329539.0,3.0,No,Onsite,3.0,89,Yes,No,2020-07-18
+EMP00017,Divya Joshi,25,Female,Operations,Manager,Ahemdabad,M.Tech,6.8,496070.0,3.0,No,Remote,4.0,86,No,No,2013-06-14
+EMP00425,Rohan Mehta,25,Male,Finance,Manager,Indore,Diploma,6.0,823315.0,6.0,Yes,Hybrid,6.0,58,No,No,2024-03-23
+EMP00165,Ananya Sharma,44,Other,R&D,Sales Executive,Chennai,BBA,2.1,524209.0,4.0,No,Remote,3.0,1,Yes,No,2024-05-10
+EMP00276,Ritesh Kumar,30,Female,HR,Data Analist,Kolkata,B.Sc,11.0,823315.0,4.0,,Onsite,6.0,30,No,No,2017-12-04
+EMP00779,Tanya Kapoor,29,Male,IT,Data Analist,Mumbai,BBA,8.2,692051.0,4.0,No,Remote,5.0,75,Yes,No,2018-05-11
+EMP00160,Karan Joshi,25,Female,Finance,Executive,Pune,MBA,6.0,823315.0,9.0,Yes,Hybrid,5.0,57,Yes,No,2013-09-07
+EMP00357,Priya Verma,38,Male,Finance,Engineer,Hydrabad,BBA,6.8,818163.0,1.0,No,Onsite,7.0,44,No,No,2018-04-22
+EMP00496,Tanya Kapoor,34,Male,Customer Support,Quality Assurance,Jaipur,M.Tech,8.8,1200412.0,3.0,No,Onsite,7.0,59,Yes,No,
+EMP00880,Sakshi Singh,44,Male,Customer Support,Engineer,Nagpur,M.Tech,13.0,823315.0,4.0,No,Hybrid,3.0,118,Yes,No,2019-02-04
+EMP00854,Deepak Verma,31,Male,HR,Data Analist,Nagpur,BBA,12.0,823315.0,4.0,Yes,unknown,7.0,24,Yes,Yes,2014-03-18
+EMP00821,Vivaan-Verma,21,Male,Finance,Executive,Ahemdabad,BBA,6.8,640397.0,3.0,No,Hybrid,0.0,27,No,Yes,
+EMP00651,Nisha Roy,58,Male,Operations,Manager,Hydrabad,B.E.,6.8,823315.0,2.0,No,Remote,3.0,3,No,Yes,2017-07-06
+EMP00001,Divya Joshi,41,Unknown,Engineering,Engineer,Bhopal,MCA,6.0,740586.0,4.0,Yes,Onsite,0.0,61,Yes,No,2017-08-22
+EMP00416,Komal Sharma,52,Female,HR,Manager,Nagpur,BBA,9.4,809844.0,4.0,,Hybrid,4.0,73,No,No,
+EMP00674,Neha Mehta,24,Female,,,Ahemdabad,Diploma,0.3,10000000.0,3.0,No,Onsite,5.0,17,No,No,2022-09-25
+EMP00385,Kavya Gupta,30,Male,Sales,Data Analist,Indore,BBA,5.1,786867.0,4.0,sometimes,Hybrid,9.0,58,No,No,2013-09-16
+EMP00838,Harsh Vardhan,60,Male,Marketing,Engineer,Kolkata,B.E.,0.0,349575.0,4.0,Yes,WFH,5.0,39,Yes,No,
+EMP00809,Nisha Roy,52,Female,Finance,,Indore,MCA,3.8,693163.0,6.0,Yes,Office,6.0,30,No,No,2013-11-01
+EMP00612,Amit Kumar,52,Male,Engineering,Data Analist,Ahemdabad,B.Tech,3.8,1073984.0,3.0,Yes,Onsite,6.0,22,Yes,Yes,2023-03-03
+EMP00397,Harsh Vardhan,41,Male,HR,Data Analist,Delhi NCR,Masters,9.2,930905.0,4.0,Yes,Remote,6.0,102,No,Yes,2014-05-26
+EMP00709,Akash  Patel,43,Unknown,Legal,Engineer,Bangalore,Unknown,2.3,652117.0,2.0,No,Hybrid,6.0,20,No,No,2024-07-25
+EMP00884,Meera Nair,60,Male,HR,Data Analist,Bangalore,B.Tech,7.2,660122.0,5.0,unknown,Onsite,7.0,25,No,Yes,2016-03-28
+EMP00430,Rohan Mehta,30,Unknown,IT,Executive,Hydrabad,M.Tech,3.0,806105.0,3.0,Yes,Remote,9.0,57,No,No,2024-04-05
+EMP00887,Ananya Sharma,42,Male,Sales,Sales Executive,Pune,B.Sc,12.9,1400000.0,4.0,No,Hybrid,7.0,0,No,No,2020-03-25
+EMP00299,Siddharth Jain,41,Male,IT,Data Analist,Indore,MCA,6.8,823315.0,5.0,Yes,WFH,9.0,61,Yes,No,2025-06-03
+EMP00075,Isha Kapoor,51,Other,HR,Executive,Jaipur,MBA,0.0,701020.0,10.0,No,WFH,6.0,40,No,No,2023-03-20
+EMP00732,Rahul Patel,60,Female,Engineering,Engineer,Hydrabad,Diploma,6.8,875122.0,4.0,No,Remote,6.0,0,Yes,No,2013-07-15
+EMP00591,Sneha Singh,30,Other,Engineering,Manager,Nagpur,B.Sc,3.2,823315.0,3.0,Yes,Remote,12.0,50,Yes,Yes,2024-12-08
+EMP00434,Priya Verma,30,Female,IT,Executive,Delhi NCR,M.Com,11.0,823315.0,4.0,No,WFH,12.0,52,No,No,2013-08-18
+EMP00502,Kavya Gupta,53,Other,Customer Support,Data Analist,Bhopal,BBA,7.4,1004982.0,2.0,Yes,Hybrid,5.5,34,No,No,2013-10-04
+EMP00234,Arjun Gupta,21,Female,IT,Engineer,Delhi NCR,BBA,5.0,1300133.0,4.0,Yes,Onsite,12.0,64,Yes,Yes,2022-02-02
+EMP00561,Rahul Patel,38,Female,IT,Engineer,Hydrabad,MCA,9.4,900004.0,2.0,Yes,Remote,20.0,200,No,No,2015-01-26
+EMP00390,Nisha Roy,50,Unknown,IT,Manager,Pune,MCA,6.8,1251225.0,2.0,Yes,Hybrid,5.0,25,No,No,2023-04-28
+EMP00896,Tanya Kapoor,44,Unknown,Finance,Data Analist,Unknown,M.Com,6.1,783277.0,3.0,Yes,Hybrid,3.0,66,No,Yes,2018-08-16
+EMP00429,Akash Patel,35,Other,Engineering,Manager,Unknown,M.Tech,12.0,830895.0,5.0,,Onsite,0.0,12,No,No,2013-05-18
+EMP00721,Sanjay Mishra,38,Unknown,Customer Support,Sales Executive,Pune,B.E.,8.1,453258.0,5.0,No,Remote,0.0,35,Yes,No,
+EMP00893,Amit Kumar,52,Male,Finance,Manager,Indore,B.E.,5.0,823315.0,10.0,Yes,Hybrid,8.0,62,No,No,2014-09-28
+EMP00608,Sakshi  Singh,60,Male,R&D,Manager,Ahemdabad,B.Com,8.5,450000.0,5.0,Yes,Hybrid,6.0,0,No,Yes,2022-10-06
+EMP00855,Kavya  Gupta,60,Other,Operations,Engineer,Unknown,MCA,5.7,1231535.0,1.0,No,Hybrid,15.0,20,Yes,No,2015-08-16
+EMP00371,Rohan Mehta,38,Male,Legal,Executive,Bangalore,M.Tech,13.6,1044471.0,3.0,Yes,Hybrid,6.0,40,Yes,No,2016-08-22
+EMP00411,Akash Patel,26,Other,HR,Engineer,Hydrabad,B.Sc,7.0,1069070.0,1.0,No,Hybrid,0.0,33,Yes,No,
+EMP00877,Aditya Singh,29,Male,Operations,Engineer,Kolkata,MCA,3.5,786038.0,2.0,Yes,Hybrid,11.0,24,Yes,No,2024-05-23
+EMP00881,Komal Sharma,38,Other,Finance,Business Development Executive,Bhopal,B.Com,9.6,677987.0,4.0,No,Hybrid,15.0,43,No,No,2021-05-23
+EMP00588,Sneha  Singh,47,Other,Operations,Manager,Ahemdabad,Unknown,17.4,823315.0,1.0,No,Onsite,3.0,65,No,No,2018-03-16
+EMP00683,Sanjay Mishra,37,Female,IT,Engineer,Kolkata,Diploma,6.8,442333.0,4.0,Yes,Onsite,5.0,20,Yes,No,2026-03-02
+EMP00053,Pooja Yadav,57,Female,IT,Data Analist,Hydrabad,MBA,6.6,921557.0,3.0,Yes,Remote,9.0,41,Yes,No,2013-03-24
+EMP00019,Siddharth Jain,59,Unknown,R&D,Engineer,Hydrabad,MCA,9.7,1085287.0,1.0,No,Hybrid,8.0,101,Yes,Yes,2020-10-24
+EMP00488,Sanjay-Mishra,38,Female,Sales,Manager,Kolkata,MBA,18.0,1633384.0,5.0,Yes,Remote,2.0,84,Yes,Yes,2022-07-28
+EMP00276,Ritesh Kumar,30,Female,Finance,Data Analist,Kolkata,B.Sc,11.0,1281816.0,4.0,,Onsite,6.0,30,No,No,2017-12-04
+EMP00717,Tanya Kapoor,36,Female,Finance,Executive,Delhi NCR,Diploma,8.1,823315.0,1.0,unknown,Remote,1.0,83,Yes,No,2019-06-10
+EMP00412,Aarav Sharma,47,Male,Marketing,Executive,Bhopal,M.Com,30.0,1440175.0,1.0,No,Remote,2.0,59,Yes,No,2020-06-30
+EMP00043,Harsh Vardhan,40,Female,Marketing,Recruiter,Mumbai,B.E.,6.4,932096.0,1.0,Yes,Onsite,11.0,50,Yes,No,2023-10-28
+EMP00786,Sakshi Singh,35,Other,IT,Manager,Chennai,B.E.,13.7,1200000.0,2.0,Yes,Remote,0.0,32,Yes,No,2017-07-24
+EMP00007,Sneha Singh,35,Male,R&D,Engineer,Mumbai,BBA,12.0,1235030.0,6.0,Yes,Remote,5.0,40,No,Yes,2015-04-01
+EMP00502,Kavya Gupta,53,Other,HR,Data Analist,Bhopal,BBA,7.4,1200000.0,2.0,Yes,Hybrid,5.5,34,No,No,2013-10-04
+EMP00233,Neha Mehta,52,Other,Sales,,Delhi NCR,Diploma,4.2,150000.0,3.0,No,Onsite,5.0,25,No,Yes,2018-08-29
+EMP00198,Riya Jain,54,Female,Legal,Engineer,Indore,B.E.,10.5,1650288.0,4.0,Yes,Onsite,7.0,22,No,No,2022-05-03
+EMP00333,Karan Joshi,30,Male,Engineering,Manager,Delhi NCR,MBA,6.4,1390821.0,1.0,Yes,Remote,4.0,43.0,Yes,No,2024-10-18
+EMP00142,Muskan Gupta,43,Female,,Executive,Bhopal,B.Com,9.3,1095097.0,5.0,Yes,Hybrid,4.0,66,No,Yes,2019-01-21
+EMP00004,Pooja Yadav,34,Unknown,,Manager,Nagpur,B.Tech,0.0,500000.0,5.0,Yes,Remote,0.0,40,Yes,No,2014-10-03
+EMP00555,Meera Nair,41,Other,Operations,Engineer,Indore,B.E.,10.6,1067515.0,1.0,No,Onsite,5.0,91,Yes,No,2020-02-19
+EMP00858,Sakshi Singh,17,Other,Operations,Manager,Mumbai,B.Com,9.3,823315.0,5.0,No,Hybrid,15.0,25,Yes,No,2026-05-17
+EMP00237,Tanya Kapoor,56,Male,Legal,Data Analist,Jaipur,Graduate,3.1,482158.0,5.0,No,Onsite,2.0,37,Yes,No,2025-01-03
+EMP00130,Nisha Roy,38,Male,IT,Engineer,Bhopal,B.Tech,2.8,823315.0,2.0,No,Remote,0.0,66,Yes,No,
+EMP00469,Divya Joshi,30,Male,HR,Executive,Unknown,Diploma,6.8,1981322.0,4.0,No,Onsite,9.0,18,Yes,Yes,2024-09-17
+EMP00291,Amit Kumar,29,Other,Engineering,Manager,Bangalore,B.Com,10.0,887342.0,1.0,No,Remote,6.0,1,Yes,No,2023-04-10
+EMP00040,Kavya Gupta,38,Female,Marketing,Executive,Delhi NCR,B.Com,10.9,1200000.0,2.0,Yes,Hybrid,3.0,100,Yes,No,
+EMP00441,Priya Verma,50,Male,R&D,Data Analist,Pune,Diploma,2.2,592011.0,1.0,No,Onsite,11.0,40,No,No,2019-11-09
+EMP00380,Arjun Gupta,38,Female,Engineering,Manager,Pune,M.Tech,6.0,845982.0,4.0,No,Hybrid,8.0,45,Yes,No,2025-09-01
+EMP00622,Kavya Gupta,28,Female,HR,Engineer,Hydrabad,B.Tech,6.1,994058.0,1.0,No,Onsite,20.0,40,Yes,No,2022-03-04
+EMP00840,Deepak Verma,30,Female,R&D,HR Executive,Delhi NCR,BBA,0.8,373167.0,1.0,No,Hybrid,2.0,58,No,Yes,2021-01-08
+EMP00850,Vivaan Verma,22,Male,Marketing,Manager,Mumbai,Diploma,3.0,227718.0,5.0,Yes,Remote,4.0,57,No,No,2020-08-01
+EMP00204,Muskan Gupta,26,Female,Legal,Data Analist,Ahemdabad,PHD,7.0,528087.0,5.0,No,Hybrid,4.0,66,No,No,2015-03-01
+EMP00895,Kavya Gupta,55,Female,IT,Executive,Indore,B.Tech,11.7,1362654.0,1.0,No,Onsite,2.0,0,No,Yes,2016-01-30
+EMP00282,Akash Patel,47,Other,Marketing,Data Analist,Pune,M.Tech,2.3,623045.0,3.0,No,Office,5.0,66,Yes,No,2018-09-01
+EMP00006,Rohan Mehta,52,Other,Engineering,Engineer,Mumbai,MCA,4.4,829463.0,2.0,Yes,unknown,7.0,33,Yes,No,
+EMP00359,Muskan Gupta,38,Male,IT,Executive,Nagpur,Unknown,8.8,635598.0,5.0,No,Onsite,8.0,82,Yes,No,2024-11-25
+EMP00030,Arjun Gupta,39,Male,Sales,Data Analist,Bhopal,B.Com,14.5,823315.0,1.0,Yes,Hybrid,0.0,40,No,No,2021-08-07
+EMP00175,Muskan Gupta,25,Unknown,Unknown,Engineer,Chennai,B.Tech,0.2,547046.0,4.0,,Remote,8.0,44,No,No,2014-07-23
+EMP00554,Tanya Kapoor,33,Female,,Engineer,Bangalore,M.Tech,6.8,1153863.0,5.0,No,Onsite,5.0,22,Yes,No,2014-12-08
+EMP00613,Meera Nair,30,Unknown,IT,Engineer,Hydrabad,B.E.,7.9,751203.0,9.0,No,WFH,7.0,61,Yes,No,2023-09-30
+EMP00381,Priya Verma,38,Female,Sales,Engineer,Ahemdabad,B.E.,6.2,753926.0,5.0,Yes,Hybrid,9.0,62,Yes,No,2015-07-20
+EMP00109,Sanjay Mishra,57,Female,Finance,Manager,Ahemdabad,M.Com,9.3,1445087.0,5.0,Yes,WFH,1.0,22,Yes,Yes,2018-06-16
+EMP00339,Pooja Yadav,55,Unknown,HR,Data Analist,Delhi NCR,Diploma,10.0,1133465.0,5.0,No,Hybrid,7.0,40,No,Yes,2026-01-04
+EMP00052,Arjun Gupta,59,Female,IT,Manager,Mumbai,Diploma,0.2,690171.0,3.0,Yes,WFH,5.0,40,Yes,No,2022-06-04
+EMP00811,Pooja Yadav,57,Other,Sales,Executive,Pune,M.Tech,16.8,1328904.0,5.0,No,,6.0,61,Yes,No,2023-02-03
+EMP00813,Karan Joshi,48,Unknown,Finance,Executive,Bhopal,Diploma,2.4,582428.0,1.0,Yes,Hybrid,0.0,26,No,No,2022-08-26
+EMP00294,Karan Joshi,53,Female,R&D,Manager,Ahemdabad,BBA,0.0,676783.0,2.0,Yes,Onsite,9.0,87,No,Yes,2021-10-19
+EMP00876,Kavya Gupta,27,Female,Engineering,Manager,Kolkata,B.Tech,8.0,793801.0,2.0,Yes,,9.0,44,No,Yes,2024-01-16
+EMP00863,Karan Joshi,58,Other,Operations,Manager,Chennai,B.Tech,10.0,600000.0,5.0,No,Hybrid,6.0,62,No,No,
+EMP00180,Ananya Sharma,60,Unknown,Marketing,Engineer,Jaipur,Diploma,3.5,435628.0,2.0,No,Onsite,7.0,56,No,Yes,2013-07-10
+EMP00520,Tanya Kapoor,21,Female,HR,Executive,Ahemdabad,B.E.,0.0,433349.0,3.0,No,Hybrid,6.0,39,No,No,
+EMP00285,Karan Joshi,51,Male,IT,Engineer,Indore,Diploma,8.9,999758.0,2.0,Yes,Onsite,0.0,73,No,Yes,2018-11-14
+EMP00467,Isha Kapoor,24,Other,Operations,Data Analist,Nagpur,Diploma,5.0,10000000.0,1.0,No,Onsite,13.0,0,Yes,No,2024-03-13
+EMP00122,Komal Sharma,45,Other,Marketing,Engineer,Bangalore,Diploma,10.0,695084.0,1.0,No,Remote,4.0,38,No,No,2015-10-21
+EMP00442,Divya Joshi,38,Unknown,Finance,Manager,Indore,PHD,14.1,1593904.0,5.0,Yes,Hybrid,4.0,3,Yes,No,2026-05-22
+EMP00188,Sakshi Singh,31,Other,Sales,Data Analist,Jaipur,MCA,12.0,1029186.0,5.0,No,Hybrid,5.0,105,No,No,2023-06-21
+EMP00114,Muskan Gupta,40,Female,Operations,Executive,Chennai,MCA,3.0,471591.0,2.0,Yes,Hybrid,7.0,15,Yes,Yes,2013-04-26
+EMP00771,Rohan Mehta,30,Other,Marketing,Engineer,Pune,MBA,6.8,967903.0,2.0,No,Onsite,5.0,35,Yes,No,2014-09-18
+EMP00405,Vivaan Verma,23,Male,Operations,Executive,Chennai,B.E.,4.0,1245997.0,4.0,No,Remote,4.0,200,Yes,No,2016-06-28
+EMP00632,Komal Sharma,27,Other,Legal,Engineer,Jaipur,B.Tech,2.5,823315.0,4.0,Yes,unknown,1.0,21,No,No,2025-08-13
+EMP00128,Harsh Vardhan,38,Female,Engineering,Business Development Executive,Bhopal,M.Tech,7.0,783141.0,5.0,Yes,Hybrid,6.0,35,No,No,2013-01-14
+EMP00058,Meera Nair,36,Female,Operations,Data Analist,Pune,B.Com,6.6,1096905.0,1.0,Yes,Remote,3.0,71,Yes,No,2013-09-24
+EMP00415,Tanya Kapoor,32,Female,IT,Manager,Indore,B.Sc,7.2,1312852.0,1.0,Yes,Onsite,4.0,56,Yes,No,2019-07-18
+EMP00486,Komal Sharma,47,Female,Engineering,Recruiter,Delhi NCR,B.Sc,0.8,150000.0,3.0,Yes,Onsite,4.0,43.0,No,No,2021-06-28
+EMP00089,Siddharth Jain,38,Unknown,Legal,Engineer,Nagpur,MCA,6.5,762162.0,3.0,No,Onsite,2.0,12,No,Yes,2021-02-05
+EMP00493,Kavya Gupta,52,Male,Engineering,,Mumbai,PHD,6.8,150000.0,3.0,No,WFH,6.0,0,No,No,
+EMP00639,Vivaan Verma,27,Female,Customer Support,Engineer,Indore,Diploma,8.0,1356561.0,5.0,No,Remote,8.0,68,No,No,2019-02-25
+EMP00024,Vivaan Verma,29,Female,HR,Manager,Indore,B.Com,9.8,1035646.0,3.0,Yes,Hybrid,3.0,26,Yes,No,2021-05-28
+EMP00626,Nisha Roy,46,Female,HR,Manager,Delhi NCR,MCA,13.5,823315.0,3.0,No,Onsite,3.0,89,Yes,No,2020-07-18
+EMP00640,Nisha Roy,31,Female,HR,Data Analist,Chennai,B.E.,8.9,1136275.0,1.0,No,Remote,0.0,41,No,No,
+EMP00063,Deepak Verma,38,Unknown,Finance,Data Analist,Nagpur,BBA,7.9,710636.0,3.0,No,Remote,0.0,105,Yes,No,2018-07-30
+EMP00274,Rohan Mehta,54,Female,Unknown,Manager,Pune,PHD,3.1,730169.0,2.0,No,Remote,12.0,43.0,No,No,2021-06-11
+EMP00627,Rahul Patel,49,Unknown,Engineering,Executive,Unknown,B.Sc,14.3,1865405.0,4.0,Yes,Hybrid,0.0,68,Yes,No,2013-09-09
+EMP00648,Karan Joshi,38,Other,Operations,Engineer,Ahemdabad,B.Tech,1.9,570172.0,1.0,Yes,Onsite,5.0,53,No,Yes,
+EMP00783,Tanya Kapoor,38,Male,HR,Executive,Nagpur,B.E.,6.1,1096660.0,4.0,Yes,Hybrid,8.0,85,No,No,2017-10-31
+EMP00526,Tanya Kapoor,30,Male,HR,Executive,Pune,M.Tech,0.0,676119.0,2.0,Yes,WHF,4.0,50,Yes,No,2025-02-17
+EMP00604,Neha Mehta,23,Male,Engineering,Sales Executive,Mumbai,BBA,4.0,569644.0,2.0,No,Hybrid,4.0,0,No,No,2025-05-11
+EMP00599,Arjun Gupta,25,Male,Legal,Engineer,Indore,M.Tech,4.5,796462.0,2.0,Yes,Hybrid,6.0,84,Yes,Yes,2013-11-05
+EMP00428,Aarav Sharma,23,Female,Finance,Recruiter,Pune,Unknown,4.0,382045.0,4.0,No,Onsite,4.0,3,No,No,2018-05-27
+EMP00147,Akash Patel,57,Other,Customer Support,Manager,Chennai,Diploma,5.7,793887.0,1.0,Yes,Onsite,5.0,43.0,No,No,2025-09-18
+EMP00221,Rahul Patel,33,Female,Finance,Executive,Kolkata,B.Com,0.3,823315.0,4.0,Yes,,8.0,61,Yes,No,2025-05-01
+EMP00475,Deepak Verma,27,Female,HR,Manager,Pune,B.Tech,7.3,850343.0,4.0,Yes,Onsite,1.0,35,No,Yes,2013-11-17
+EMP00682,Akash Patel,58,Male,Customer Support,Data Analist,Mumbai,MCA,10.6,928282.0,9.0,No,Remote,0.0,18,No,No,
+EMP00470,Rahul Patel,17,Other,IT,,Nagpur,B.E.,5.0,500000.0,2.0,Yes,unknown,5.0,63,Yes,No,2020-05-27
+EMP00106,Meera Nair,48,Other,IT,Data Analist,Mumbai,B.Sc,6.8,457146.0,3.0,No,Onsite,20.0,63,Yes,No,2020-02-16
+EMP00388,Priya Verma,44,Female,Customer Support,Engineer,Nagpur,MCA,10.0,1207474.0,2.0,sometimes,Onsite,7.0,43.0,No,No,2015-08-21
+EMP00500,Muskan Gupta,43,Female,,Executive,Nagpur,B.Tech,13.2,1337955.0,10.0,Yes,Hybrid,12.0,105,Yes,No,2024-06-17
+EMP00068,Isha Kapoor,29,Other,,Manager,Nagpur,Diploma,6.8,924976.0,5.0,No,Onsite,13.0,43,No,No,2013-04-20
+EMP00045,Kavya Gupta,40,Male,Marketing,Manager,Kolkata,M.Com,14.3,823315.0,10.0,No,Onsite,20.0,40,Yes,Yes,
+EMP00168,Arjun Gupta,29,Male,Legal,Executive,Kolkata,Unknown,8.2,854504.0,0.0,,Onsite,9.0,0,Yes,No,2016-07-01
+EMP00432,Akash  Patel,33,Male,Customer Support,Engineer,Delhi NCR,Diploma,9.8,1305212.0,2.0,No,Onsite,5.0,0,No,No,
+EMP00240,Nisha Roy,26,Female,,Sales Executive,Bangalore,B.Sc,7.0,823315.0,1.0,Yes,Remote,6.0,11,No,No,2022-11-03
+EMP00071,Akash Patel,25,Unknown,Customer Support,Data Analist,Nagpur,B.Sc,6.0,611352.0,2.0,Yes,Hybrid,7.0,62,Yes,No,
+EMP00723,Amit Kumar,49,Female,Operations,Manager,Kolkata,M.Com,7.7,823315.0,3.0,No,Remote,15.0,52,Yes,Yes,2018-04-04
+EMP00874,Deepak Verma,25,Unknown,Marketing,Engineer,Nagpur,B.E.,5.0,495942.0,4.0,Yes,Remote,3.0,43,No,Yes,
+EMP00773,Karan Joshi,29,Female,IT,Executive,Kolkata,M.Com,8.7,907640.0,1.0,sometimes,Remote,1.0,0,Yes,Yes,2019-03-17
+EMP00129,Sanjay Mishra,38,Male,HR,Data Analist,Mumbai,MCA,0.0,522744.0,1.0,Yes,Remote,9.0,54,No,No,2018-07-17
+EMP00867,Rohan Mehta,43,Female,R&D,Executive,Indore,MBA,6.8,785497.0,3.0,Yes,Remote,7.0,88,No,No,
+EMP00492,Aarav Sharma,23,Other,R&D,Manager,Pune,B.E.,4.0,600000.0,4.0,Yes,Onsite,11.0,32,Yes,No,
+EMP00479,Meera Nair,34,Male,IT,HR Executive,Bangalore,M.Tech,5.0,823315.0,5.0,No,Hybrid,5.0,0,No,No,2023-05-20
+EMP00003,Aditya Singh,38,Female,Customer Support,Manager,Mumbai,M.Com,3.2,656909.0,5.0,No,Hybrid,5.0,53,Yes,No,2018-11-05
+EMP00574,Priya Verma,53,Male,Sales,Data Analist,Chennai,MCA,7.7,10000000.0,3.0,No,Hybrid,15.0,59,Yes,No,2013-03-13
+EMP00051,Muskan Gupta,44,Male,Marketing,Engineer,Jaipur,M.Com,5.8,500000.0,4.0,Yes,Onsite,4.0,50,Yes,Yes,2019-06-25
+EMP00864,Ananya Sharma,27,Male,Operations,Executive,Ahemdabad,M.Tech,6.8,723845.0,1.0,No,Hybrid,10.0,88,Yes,Yes,2014-04-11
+EMP00478,Deepak Verma,52,Other,R&D,Engineer,Indore,B.E.,7.1,1411580.0,2.0,Yes,Hybrid,5.0,40,No,No,2013-01-08
+EMP00314,Akash Patel,40,Male,Sales,,Jaipur,MBA,0.0,508331.0,4.0,No,Hybrid,5.0,80,Yes,No,
+EMP00562,Tanya Kapoor,38,Male,IT,Engineer,Bhopal,Unknown,11.6,807731.0,2.0,No,,0.0,4,Yes,No,2023-01-04
+EMP00745,Komal Sharma,33,Male,Marketing,Engineer,Bangalore,M.Com,7.7,600000.0,5.0,unknown,Hybrid,6.0,76,No,Yes,2019-07-15
+EMP00505,Komal Sharma,41,Male,IT,Executive,Chennai,MBA,0.0,894960.0,4.0,No,Remote,14.0,124,No,No,2016-01-15
+EMP00552,Rahul Patel,38,Other,R&D,Executive,Delhi NCR,B.Com,6.6,622462.0,3.0,,WFH,8.0,59,Yes,No,2022-01-05
+EMP00409,Amit Kumar,59,Unknown,Sales,,Indore,M.Tech,6.8,600000.0,1.0,Yes,Hybrid,8.0,40,No,Yes,2014-04-07
+EMP00706,Riya Jain,33,Female,Finance,Engineer,Indore,Diploma,7.4,1403533.0,1.0,Yes,Remote,15.0,74,Yes,No,2017-03-13
+EMP00103,Nisha Roy,45,Male,Marketing,Manager,Hydrabad,MBA,5.0,875158.0,3.0,No,,1.0,38,Yes,No,2025-06-22
+EMP00051,Muskan Gupta,44,Male,IT,Engineer,Jaipur,M.Com,5.8,650000.0,4.0,Yes,Onsite,4.0,50,Yes,Yes,2019-06-25
+EMP00879,Pooja Yadav,27,Female,Finance,Manager,Chennai,B.E.,8.0,860382.0,4.0,No,unknown,3.0,40,No,Yes,2017-12-08
+EMP00824,Amit  Kumar,49,Male,Sales,Executive,Nagpur,B.Tech,17.1,1817075.0,2.0,Yes,Onsite,1.0,101,Yes,No,2014-02-15
+EMP00111,Sanjay Mishra,32,Female,IT,Recruiter,Unknown,PHD,13.0,1169037.0,4.0,Yes,Remote,10.0,115,Yes,Yes,2024-07-05
+EMP00473,Harsh-Vardhan,37,Other,Finance,Executive,Chennai,B.Com,15.3,1746741.0,1.0,Yes,Remote,5.0,38,No,No,2024-01-16
+EMP00219,Muskan Gupta,42,Unknown,IT,Executive,Indore,B.Sc,0.0,246993.0,4.0,No,Hybrid,5.0,1,No,Yes,2020-05-03
+EMP00819,Divya Joshi,60,Unknown,Unknown,Executive,Indore,MBA,11.1,932227.0,2.0,Yes,Remote,9.0,41,No,No,2023-09-17
+EMP00072,Sakshi Singh,48,Female,Marketing,Engineer,Chennai,M.Tech,14.2,1006227.0,2.0,Yes,Remote,5.0,0,No,No,2024-06-20
+EMP00399,Riya Jain,35,Other,Marketing,Data Analist,Ahemdabad,MBA,7.7,953986.0,5.0,Yes,Onsite,3.0,52,No,No,2017-03-07
+EMP00061,Rohan Mehta,45,Other,Operations,Engineer,Mumbai,B.Tech,4.6,600000.0,6.0,Yes,Onsite,3.0,40,No,No,2013-10-17
+EMP00355,Manish-Tiwari,42,Male,Customer Support,Manager,Chennai,M.Tech,3.5,924413.0,1.0,Yes,Hybrid,1.0,32,No,No,
+EMP00676,Kavya Gupta,17,Other,IT,Unknown,Chennai,PHD,4.4,461363.0,2.0,Yes,Onsite,3.0,78,Yes,No,2021-04-25
+EMP00508,Isha Kapoor,29,Other,IT,Executive,Kolkata,B.E.,7.2,555503.0,2.0,No,Hybrid,5.0,45,No,No,2023-06-16
+EMP00792,Sakshi-Singh,38,Other,R&D,Engineer,Chennai,Unknown,12.0,1404590.0,2.0,Yes,Onsite,2.0,0,Yes,No,2024-09-07
+EMP00207,Deepak Verma,38,Male,IT,,Kolkata,MCA,9.0,1140431.0,1.0,Yes,Remote,10.0,0,No,No,2018-11-22
+EMP00115,Ananya Sharma,24,Other,HR,HR Executive,Bangalore,B.E.,10.0,703676.0,3.0,Yes,Remote,1.0,27,No,No,2024-12-10
+EMP00077,Rahul Patel,46,Female,Engineering,Data Analist,Kolkata,B.Tech,6.8,1276629.0,1.0,Yes,Remote,2.0,40,No,Yes,2015-09-22
+EMP00338,Deepak Verma,38,Unknown,Customer Support,Engineer,Mumbai,M.Com,6.2,731543.0,3.0,Yes,Onsite,4.0,59,Yes,Yes,2023-04-16
+EMP00729,Meera Nair,23,Male,Engineering,HR Executive,Indore,M.Tech,4.0,683062.0,2.0,Yes,Hybrid,5.0,82,No,No,
+EMP00084,Deepak Verma,30,Other,Marketing,Manager,Bhopal,Diploma,6.8,1071303.0,3.0,No,Hybrid,6.0,59,No,Yes,2018-01-28
+EMP00261,Ananya Sharma,31,Female,R&D,Engineer,Delhi NCR,B.Tech,12.0,1570002.0,1.0,No,Onsite,0.0,25,No,No,2020-02-11
+EMP00452,Rahul-Patel,50,Male,Legal,Executive,Jaipur,MBA,6.8,1205043.0,1.0,Yes,Remote,3.0,43.0,Yes,No,2022-04-04
+EMP00187,Siddharth  Jain,37,Unknown,Customer Support,Engineer,Delhi NCR,M.Com,2.4,830658.0,1.0,No,Onsite,0.0,22,No,No,
+EMP00264,Tanya Kapoor,38,Female,Sales,Executive,Delhi NCR,MCA,5.0,585748.0,2.0,No,Hybrid,2.0,16,No,Yes,2020-05-22
+EMP00818,Karan Joshi,17,Other,Customer Support,Engineer,Mumbai,BBA,14.3,600000.0,3.0,No,Onsite,9.0,0,No,Yes,2018-11-06
+EMP00681,Akash Patel,25,Male,Sales,Manager,Chennai,MBA,3.5,823315.0,4.0,No,Hybrid,0.0,51,Yes,No,2016-05-29
+EMP00318,Rahul  Patel,38,Female,IT,Executive,Mumbai,Graduate,9.1,1484993.0,2.0,Yes,Hybrid,0.0,71,No,No,2015-07-05
+EMP00511,Sanjay Mishra,28,Male,Sales,Engineer,Jaipur,B.Sc,2.2,248080.0,3.0,No,WHF,3.0,50,No,No,2022-03-01
+EMP00714,Komal  Sharma,21,Other,Customer Support,Business Development Executive,Jaipur,MBA,2.0,1122597.0,4.0,No,Hybrid,9.0,31,No,No,2021-06-08
+EMP00280,Manish Tiwari,31,Female,IT,Data Analist,Indore,B.Tech,0.0,416198.0,3.0,No,Hybrid,8.0,0,Yes,No,2013-08-22
+EMP00775,Siddharth Jain,24,Male,Sales,Engineer,Mumbai,Unknown,4.1,598848.0,1.0,Yes,Hybrid,4.0,43.0,Yes,No,2013-11-16
+EMP00694,Akash-Patel,56,Female,Customer Support,Engineer,Hydrabad,PHD,6.4,766769.0,4.0,No,Hybrid,20.0,100,No,Yes,
+EMP00114,Muskan Gupta,40,Female,IT,Executive,Chennai,MCA,3.0,823315.0,2.0,Yes,Hybrid,7.0,15,Yes,Yes,2013-04-26
+EMP00695,Muskan Gupta,56,Other,Operations,Quality Assurance,Indore,B.Sc,11.4,500000.0,2.0,,Hybrid,20.0,58,Yes,No,2013-10-19
+EMP00722,Akash Patel,25,Male,Operations,Engineer,Chennai,MCA,6.8,691795.0,3.0,Yes,Office,5.5,58,No,No,2021-10-26
+EMP00584,Sanjay Mishra,29,Female,R&D,Engineer,Kolkata,BBA,8.2,380606.0,6.0,Yes,,11.0,0,Yes,No,2013-08-26
+EMP00748,Sakshi Singh,24,Male,Marketing,Manager,Delhi NCR,B.Tech,5.0,733773.0,4.0,Yes,Remote,0.0,73,Yes,No,2020-07-27
+EMP00302,Arjun Gupta,26,Male,,Data Analist,Bangalore,B.Sc,30.0,500000.0,5.0,Yes,Onsite,5.0,34,No,Yes,2024-11-23
+EMP00263,Vivaan Verma,22,Male,HR,Executive,Indore,Diploma,6.8,823315.0,5.0,Yes,,3.0,20,No,No,2019-05-13
+EMP00450,Aditya Singh,51,Male,Legal,Data Analist,Mumbai,Unknown,3.5,685237.0,3.0,No,Remote,1.0,29,Yes,Yes,2018-08-12
+EMP00716,Arjun Gupta,38,Male,R&D,Data Analist,Delhi NCR,B.Com,10.0,1323415.0,3.0,No,Remote,7.0,100,No,No,
+EMP00385,Kavya Gupta,30,Male,IT,Data Analist,Indore,BBA,5.1,500000.0,4.0,sometimes,Hybrid,9.0,58,No,No,2013-09-16
+EMP00783,Tanya Kapoor,38,Male,IT,Executive,Nagpur,B.E.,6.1,500000.0,4.0,Yes,Hybrid,8.0,85,No,No,2017-10-31
+EMP00316,Sakshi Singh,47,Male,Sales,Executive,Indore,M.Tech,11.3,600000.0,5.0,No,Hybrid,7.0,2,No,No,2017-11-18
+EMP00898,Amit Kumar,38,Male,IT,Manager,Indore,B.Sc,7.4,823315.0,1.0,No,Office,5.0,60,No,No,
+EMP00702,Ananya Sharma,38,Female,,Data Analist,Unknown,PHD,30.0,319447.0,4.0,Yes,Onsite,3.0,40,No,No,2026-03-08
+EMP00185,Ritesh Kumar,26,Female,Customer Support,Executive,Bangalore,B.Sc,5.5,575592.0,4.0,unknown,Onsite,0.0,21,No,Yes,2018-03-06
+EMP00646,Siddharth Jain,52,Male,Finance,Executive,Bhopal,PHD,11.0,500000.0,4.0,No,Hybrid,6.0,64,No,No,2021-06-12
+EMP00228,Rahul Patel,17,Female,R&D,Executive,Indore,B.Tech,12.1,1439842.0,5.0,Yes,Hybrid,9.0,52,Yes,No,2024-04-29
+EMP00796,Priya Verma,36,Other,Customer Support,Data Analist,Unknown,B.Sc,6.8,1203171.0,2.0,No,Onsite,8.0,23,No,No,
+EMP00827,Karan-Joshi,48,Female,Customer Support,Manager,Mumbai,Unknown,6.8,374633.0,1.0,Yes,Onsite,2.0,25,No,No,2017-12-05
+EMP00869,Ananya-Sharma,38,Other,R&D,Data Analist,Nagpur,B.Sc,4.2,1061321.0,3.0,Yes,unknown,7.0,29,Yes,No,2024-02-22
+EMP00582,Sneha Singh,41,Male,Marketing,Engineer,Unknown,M.Tech,6.8,1168833.0,2.0,Yes,WFH,5.0,29,No,Yes,2014-01-02
+EMP00148,Priya Verma,27,Female,Sales,Data Analist,Mumbai,M.Tech,6.8,727669.0,5.0,No,Remote,1.0,71,Yes,Yes,2015-12-24
+EMP00678,Riya Jain,57,Female,Customer Support,Data Analist,Bangalore,MCA,5.0,2018667.0,4.0,No,Hybrid,7.0,45,Yes,No,2025-03-05
+EMP00701,Sanjay Mishra,30,Female,IT,Executive,Hydrabad,B.Com,6.8,748245.0,4.0,No,Onsite,1.0,93,Yes,No,2014-07-06
+EMP00286,Karan Joshi,28,Other,HR,Data Analist,Pune,B.Sc,9.0,1042108.0,2.0,No,Hybrid,4.0,35,No,No,
+EMP00193,Rohan Mehta,33,Male,IT,Data Analist,Delhi NCR,MBA,8.5,823315.0,3.0,,Hybrid,11.0,0,No,No,2018-03-12
+EMP00166,Sanjay Mishra,35,Female,IT,Executive,Nagpur,PHD,3.4,942516.0,5.0,Yes,Onsite,5.0,46,No,Yes,
+EMP00524,Manish Tiwari,25,Male,,Engineer,Bangalore,MBA,2.5,508334.0,4.0,No,Onsite,13.0,59,Yes,Yes,2025-02-04
+EMP00610,Ritesh Kumar,36,Other,Sales,Manager,Indore,PHD,30.0,1377297.0,3.0,Yes,Hybrid,0.0,67,No,Yes,2018-11-01
+EMP00144,Sakshi Singh,43,Female,Engineering,Engineer,Pune,M.Tech,5.7,977777.0,2.0,No,Remote,4.0,54,No,No,2014-07-18
+EMP00091,Meera Nair,57,Female,Legal,Executive,Hydrabad,BBA,1.1,373054.0,2.0,Yes,Remote,7.0,53,No,No,2015-06-29
+EMP00310,Siddharth Jain,51,Male,Customer Support,Recruiter,Kolkata,MBA,5.4,598602.0,4.0,sometimes,Hybrid,5.0,43.0,No,No,
+EMP00303,Aarav Sharma,30,Male,IT,Data Analist,Bhopal,Graduate,9.8,1458884.0,3.0,Yes,,9.0,27,No,No,2019-01-26
+EMP00497,Neha Mehta,36,Other,IT,Data Analist,Ahemdabad,B.E.,17.0,1720290.0,10.0,No,Hybrid,5.0,65,Yes,No,2017-06-07
+EMP00038,Priya Verma,35,Male,Engineering,Executive,Hydrabad,B.Tech,9.1,1200000.0,5.0,No,Onsite,2.0,63,Yes,No,2018-03-10
+EMP00322,Pooja Yadav,25,Male,Engineering,Executive,Hydrabad,Masters,6.0,1170130.0,1.0,No,Hybrid,10.0,85,No,No,2014-02-27
+EMP00349,Divya Joshi,23,Female,Marketing,Manager,Chennai,PHD,4.0,367699.0,3.0,No,Hybrid,11.0,93,Yes,No,2022-01-02
+EMP00015,Muskan Gupta,46,Female,Legal,Engineer,Indore,BBA,1.5,570903.0,3.0,Yes,Onsite,11.0,45,No,No,2017-04-08
+EMP00583,Harsh Vardhan,35,Male,Finance,Executive,Nagpur,B.Tech,3.1,700561.0,4.0,No,Onsite,5.0,20,No,No,2013-12-05
+EMP00195,Sakshi Singh,46,Male,HR,Data Analist,Delhi NCR,B.Com,5.7,831793.0,3.0,No,,6.0,8,Yes,No,2022-10-24
+EMP00690,Rahul Patel,57,Male,IT,Data Analist,Bhopal,B.Com,3.9,1048572.0,5.0,Yes,Remote,4.0,76,No,Yes,2016-08-06
+EMP00778,Meera Nair,21,Other,Customer Support,Quality Assurance,Bhopal,B.Tech,0.5,481930.0,1.0,No,Onsite,5.0,54,No,Yes,
+EMP00673,Neha Mehta,54,Male,Finance,Data Analist,Kolkata,M.Tech,1.4,150000.0,5.0,unknown,Hybrid,5.5,-5,No,Yes,2019-12-19
+EMP00842,Pooja Yadav,56,Male,R&D,Data Analist,Kolkata,MBA,6.8,1670456.0,0.0,No,Hybrid,5.0,45,Yes,No,2024-05-23
+EMP00161,Arjun Gupta,28,Other,R&D,Engineer,Mumbai,MCA,9.0,1374683.0,3.0,Yes,Remote,0.0,46,No,No,2014-03-11
+EMP00544,Isha Kapoor,24,Other,Finance,Unknown,Jaipur,Unknown,5.0,710011.0,2.0,Yes,Hybrid,0.0,200,Yes,No,2017-06-08
+EMP00761,Kavya Gupta,57,Other,HR,Manager,Mumbai,M.Tech,6.8,1062827.0,5.0,Yes,Remote,5.0,30,Yes,No,2025-05-16
+EMP00810,Isha Kapoor,27,Female,Finance,Executive,Nagpur,MBA,8.0,568791.0,4.0,Yes,WFH,7.0,63,No,No,2017-01-06
+EMP00283,Ritesh Kumar,34,Female,Finance,Data Analist,Jaipur,B.Tech,6.8,1587871.0,4.0,No,Hybrid,11.0,45,No,No,2018-08-07
+EMP00009,Divya Joshi,38,Male,Operations,Unknown,Hydrabad,MCA,6.8,764689.0,3.0,No,Remote,5.0,93,Yes,No,2016-11-29
+EMP00182,Harsh Vardhan,28,Female,Unknown,Data Analist,Unknown,MBA,6.3,653093.0,0.0,Yes,Hybrid,5.0,10,Yes,Yes,2015-05-21
+EMP00223,Tanya-Kapoor,32,Other,Sales,Manager,Bangalore,PHD,5.3,466502.0,2.0,,Onsite,5.0,38,No,Yes,
+EMP00570,Siddharth Jain,54,Female,Customer Support,Engineer,Pune,Diploma,7.1,1356598.0,1.0,Yes,Hybrid,1.0,15,Yes,Yes,2015-07-07
+EMP00757,Harsh Vardhan,38,Male,R&D,Data Analist,Nagpur,B.Tech,6.8,10000000.0,4.0,Yes,Hybrid,11.0,44,No,No,2018-08-11
+EMP00064,Amit Kumar,38,Other,IT,Executive,Ahemdabad,PHD,8.5,823315.0,5.0,No,Onsite,8.0,0,Yes,No,2020-03-29
+EMP00730,Ananya Sharma,27,Male,Customer Support,Sales Executive,Bangalore,Unknown,6.8,1092858.0,2.0,No,Onsite,8.0,59,No,No,2015-07-05
+EMP00845,Ananya Sharma,53,Other,IT,Manager,Bangalore,MCA,13.5,1255280.0,2.0,No,Remote,5.0,34,No,No,2014-08-11
+EMP00616,Muskan Gupta,39,Female,IT,Executive,Pune,M.Tech,12.7,1766622.0,4.0,,,5.0,76,Yes,No,2019-09-01
+EMP00596,Komal Sharma,47,Male,Operations,Data Analist,Delhi NCR,B.Com,7.8,947702.0,0.0,No,Onsite,4.0,65,No,No,
+EMP00154,Harsh Vardhan,37,Female,Finance,Data Analist,Delhi NCR,PHD,6.8,1256449.0,3.0,No,Hybrid,4.0,31,No,No,
+EMP00123,Amit Kumar,31,Male,Unknown,Engineer,Ahemdabad,B.Tech,12.0,1200000.0,2.0,No,Remote,10.0,43.0,Yes,No,2015-05-08
+EMP00521,Rahul Patel,29,Male,Legal,Manager,Mumbai,B.Tech,0.0,635806.0,1.0,unknown,WFH,5.0,24,Yes,No,2014-06-02
+EMP00101,Pooja Yadav,44,Other,R&D,Engineer,Nagpur,BBA,30.0,940150.0,5.0,Yes,Onsite,2.0,98,Yes,Yes,2023-04-07
+EMP00557,Riya Jain,25,Female,HR,Manager,Pune,Unknown,2.4,253785.0,2.0,No,Remote,9.0,35,No,No,2014-03-11
+EMP00894,Amit Kumar,38,Unknown,Legal,Data Analist,Chennai,B.Tech,6.8,823315.0,5.0,Yes,WFH,3.0,75,No,No,2015-07-04
+EMP00307,Aditya Singh,45,Female,,Manager,Bhopal,B.Tech,6.2,1328291.0,2.0,Yes,WHF,5.0,33,Yes,Yes,2025-04-23
+EMP00209,Komal Sharma,38,Unknown,Legal,Manager,Kolkata,M.Tech,6.8,823315.0,2.0,Yes,Onsite,5.0,7,Yes,No,2018-05-18
+EMP00460,Manish Tiwari,28,Other,IT,Data Analist,Kolkata,M.Com,9.0,1200000.0,5.0,No,Remote,6.0,104,No,No,2013-10-01
+EMP00808,Meera Nair,26,Male,Customer Support,Data Analist,Indore,MCA,7.0,1034665.0,0.0,No,Onsite,4.0,70,Yes,No,2022-02-06
+EMP00145,Neha Mehta,40,Male,HR,Engineer,Ahemdabad,B.Tech,13.1,1302511.0,5.0,No,Hybrid,4.0,45,No,No,2015-10-17
+EMP00301,Tanya Kapoor,26,Male,IT,Engineer,Indore,Diploma,7.0,542199.0,3.0,Yes,Hybrid,9.0,100,Yes,No,2024-10-23
+EMP00615,Sakshi Singh,38,Female,IT,Engineer,Hydrabad,MCA,12.1,904240.0,1.0,Yes,Remote,6.0,32,Yes,No,2022-08-07
+EMP00791,Isha Kapoor,22,Female,IT,Manager,Nagpur,MCA,1.1,150000.0,4.0,Yes,unknown,6.0,11,Yes,No,2013-06-27
+EMP00332,Neha Mehta,51,Female,Marketing,Data Analist,Kolkata,B.Com,0.0,663315.0,4.0,No,Remote,5.0,73,Yes,No,2013-03-13
+EMP00653,Ritesh Kumar,21,Other,,Executive,Ahemdabad,MCA,6.8,514310.0,3.0,Yes,Hybrid,1.0,32,No,Yes,
+EMP00434,Priya Verma,30,Female,Engineering,Executive,Delhi NCR,M.Com,11.0,1097936.0,4.0,No,WFH,12.0,52,No,No,2013-08-18
+EMP00125,Manish Tiwari,33,Female,Legal,Executive,Hydrabad,B.Tech,14.0,1777194.0,4.0,Yes,Remote,1.0,23,Yes,No,2020-02-11
+EMP00257,Aarav Sharma,38,Male,Operations,Manager,Indore,B.Com,9.9,289939.0,3.0,No,Hybrid,4.0,91,No,No,2019-07-09
+EMP00495,Isha Kapoor,28,Other,Marketing,Engineer,Jaipur,M.Tech,9.0,963577.0,3.0,Yes,Remote,6.0,40,No,No,2014-12-13
+EMP00541,Manish Tiwari,43,Female,Finance,Manager,Mumbai,B.E.,6.8,1997213.0,1.0,Yes,Remote,3.0,19,No,No,
+EMP00196,Muskan Gupta,52,Female,Engineering,Unknown,Jaipur,B.Com,10.5,1058511.0,3.0,No,Hybrid,5.0,32,No,No,2017-01-03
+EMP00586,Karan Joshi,45,Unknown,Engineering,Engineer,Delhi NCR,B.Com,3.5,500000.0,5.0,Yes,Remote,5.0,0,Yes,No,2017-07-09
+EMP00738,Priya Verma,30,Male,Operations,Manager,Unknown,B.Tech,11.0,1246231.0,4.0,Yes,WFH,5.0,38,No,Yes,2018-07-03
+EMP00793,Rahul Patel,38,Male,IT,Engineer,Indore,B.Com,0.0,150000.0,3.0,Yes,Onsite,6.0,43.0,No,No,2013-02-02
+EMP00563,Akash Patel,41,Other,Finance,Data Analist,Jaipur,PHD,10.0,750000.0,2.0,Yes,Hybrid,5.0,74,No,No,2016-12-15
+EMP00444,Manish Tiwari,36,Other,Unknown,Sales Executive,Ahemdabad,PHD,6.5,660197.0,2.0,No,Hybrid,5.0,95,Yes,No,
+EMP00803,Komal Sharma,51,Male,R&D,Executive,Jaipur,B.Com,10.8,1094602.0,5.0,Yes,,5.0,87,No,No,2020-01-13
+EMP00231,Komal-Sharma,32,Female,Legal,Manager,Nagpur,B.E.,8.9,613641.0,3.0,No,Remote,0.0,40,Yes,No,2024-07-16
+EMP00774,Priya Verma,49,Female,HR,Executive,Ahemdabad,MCA,6.8,1612377.0,1.0,Yes,Hybrid,11.0,24,No,Yes,2021-07-16
+EMP00780,Sakshi Singh,36,Other,IT,Sales Executive,Ahemdabad,Unknown,1.1,500000.0,1.0,No,,5.0,76,No,No,2015-10-11
+EMP00176,Arjun Gupta,52,Other,Sales,HR Executive,Jaipur,MCA,5.0,1233581.0,5.0,Yes,Office,5.0,200,Yes,No,2015-04-28
+EMP00208,Meera Nair,35,Other,Finance,Manager,Jaipur,B.E.,1.2,236609.0,5.0,No,Remote,15.0,-5,Yes,Yes,2020-08-06
+EMP00438,Siddharth Jain,22,Unknown,HR,Data Analist,Bangalore,Diploma,6.8,650000.0,4.0,No,Onsite,12.0,20,No,No,2022-07-23
+EMP00062,Manish Tiwari,25,Female,IT,Manager,Ahemdabad,B.E.,3.2,500000.0,3.0,No,Onsite,6.0,82,Yes,No,2014-03-21
+EMP00431,Deepak Verma,49,Male,Marketing,Data Analist,Jaipur,B.Com,10.8,1179474.0,1.0,No,WHF,0.0,68,Yes,No,2018-10-29
+EMP00206,Nisha Roy,38,Male,Finance,Executive,Nagpur,B.Sc,6.8,500000.0,5.0,,Hybrid,10.0,51,No,No,2020-09-03
+EMP00056,Ananya-Sharma,38,Other,Operations,Engineer,Unknown,PHD,2.5,477609.0,1.0,Yes,Onsite,11.0,0,No,No,
+EMP00644,Harsh Vardhan,25,Male,HR,Engineer,Bhopal,B.Com,10.0,379622.0,3.0,Yes,Hybrid,5.0,74,Yes,Yes,2020-08-24
+EMP00205,Nisha Roy,25,Other,Customer Support,Executive,Delhi NCR,B.Tech,11.2,1177692.0,4.0,No,Remote,11.0,54,Yes,No,2014-07-02
+EMP00112,Sakshi Singh,38,Other,Operations,Executive,Jaipur,Unknown,3.3,339130.0,5.0,No,Onsite,5.0,44,Yes,No,2023-02-28
+EMP00715,Priya Verma,27,Female,Sales,Data Analist,Pune,M.Com,5.6,878456.0,4.0,Yes,Remote,0.0,19,No,No,
+EMP00733,Isha Kapoor,23,Male,Marketing,Recruiter,Hydrabad,MCA,4.0,150000.0,1.0,No,WFH,3.0,47,No,No,2016-02-07
+EMP00449,Arjun Gupta,38,Unknown,R&D,Data Analist,Delhi NCR,MCA,6.0,823315.0,3.0,No,WFH,1.0,43.0,Yes,No,2014-04-02
+EMP00875,Arjun Gupta,57,Female,HR,Engineer,Unknown,M.Tech,6.8,931522.0,6.0,No,Onsite,4.0,54,No,Yes,2023-08-02
+EMP00597,Arjun Gupta,38,Male,Marketing,Sales Executive,Pune,PHD,12.6,896851.0,0.0,Yes,Hybrid,1.0,69,No,No,2022-01-10
+EMP00567,Rahul Patel,39,Other,Engineering,Business Development Executive,Delhi NCR,Graduate,5.5,717758.0,5.0,Yes,Onsite,6.0,49,No,No,2017-04-11
+EMP00025,Kavya Gupta,32,Female,R&D,Engineer,Bhopal,MBA,2.5,447888.0,3.0,Yes,Onsite,10.0,38,No,No,2015-07-23
+EMP00741,Vivaan  Verma,56,Other,Operations,Manager,Mumbai,B.E.,6.3,752959.0,3.0,Yes,Remote,7.0,106,No,Yes,2019-08-30
+EMP00746,Siddharth Jain,56,Female,IT,Executive,Mumbai,B.Tech,5.3,600000.0,5.0,,Hybrid,5.0,29,Yes,No,2020-08-12
+EMP00767,Pooja Yadav,58,Male,Marketing,Executive,Delhi NCR,MBA,4.6,720755.0,5.0,No,Hybrid,5.0,100,No,No,2024-05-23
+EMP00607,Muskan Gupta,27,Female,Customer Support,Unknown,Nagpur,MCA,8.0,284982.0,5.0,Yes,Remote,5.0,44,Yes,No,2023-03-17
+EMP00865,Amit Kumar,25,Other,Marketing,Manager,Delhi NCR,B.E.,6.8,401991.0,2.0,No,Onsite,6.0,24,Yes,Yes,2021-01-31
+EMP00410,Ananya Sharma,51,Other,Engineering,Engineer,Bhopal,B.Tech,1.8,433447.0,4.0,Yes,Onsite,4.0,66,No,Yes,
+EMP00519,Rahul Patel,24,Other,Customer Support,Engineer,Ahemdabad,B.E.,5.0,342857.0,1.0,Yes,Remote,5.0,0,Yes,No,2017-09-27
+EMP00533,Karan Joshi,38,Unknown,IT,Engineer,Mumbai,PHD,0.0,778882.0,4.0,Yes,Onsite,11.0,40,No,No,2019-11-14
+EMP00483,Harsh Vardhan,44,Male,IT,Engineer,Bhopal,B.Tech,30.0,973838.0,4.0,Yes,Remote,0.0,43.0,Yes,No,
+EMP00657,Komal Sharma,44,Female,Unknown,Manager,Nagpur,B.Sc,8.8,1292006.0,4.0,No,Remote,8.0,20,Yes,Yes,
+EMP00768,Manish Tiwari,30,Male,Legal,Data Analist,Bhopal,Diploma,10.0,1200000.0,6.0,Yes,Onsite,7.0,86,No,Yes,2019-05-31
+EMP00518,Sanjay Mishra,22,Male,Engineering,Data Analist,Hydrabad,PHD,3.0,730832.0,1.0,,Remote,5.0,46,No,No,
+EMP00222,Priya Verma,29,Female,Sales,Quality Assurance,Nagpur,Unknown,5.8,492956.0,5.0,No,Onsite,0.0,69,No,No,2014-01-06
+EMP00120,Harsh Vardhan,27,Female,Sales,HR Executive,Kolkata,Diploma,6.8,1200000.0,5.0,Yes,WFH,15.0,35,No,No,2021-09-05
+EMP00889,Muskan Gupta,22,Other,Engineering,Quality Assurance,Mumbai,MBA,3.0,466619.0,2.0,Yes,Hybrid,3.0,81,Yes,No,
+EMP00752,Ritesh Kumar,44,Male,Operations,Manager,Bhopal,B.Sc,11.0,1238409.0,1.0,No,Onsite,7.0,53,No,No,2017-03-15
+EMP00426,Amit Kumar,17,Male,HR,Executive,Nagpur,Diploma,13.1,872561.0,5.0,No,Remote,10.0,62,Yes,No,2020-11-09
+EMP00667,Sanjay Mishra,53,Female,Marketing,Manager,Chennai,BBA,0.0,256335.0,2.0,No,WFH,5.0,115,Yes,No,2023-05-17
+EMP00305,Pooja Yadav,25,Other,R&D,Executive,Delhi NCR,B.Com,6.0,547842.0,5.0,Yes,Onsite,11.0,0,No,Yes,2018-10-29
+EMP00534,Pooja Yadav,44,Male,Engineering,Engineer,Unknown,Unknown,0.3,803165.0,2.0,Yes,Remote,6.0,7,No,No,2014-06-15
+EMP00507,Vivaan Verma,38,Female,Operations,Engineer,Mumbai,Unknown,4.2,823315.0,2.0,,Remote,1.0,52,No,No,2017-01-15
+EMP00438,Siddharth Jain,22,Unknown,Sales,Data Analist,Bangalore,Diploma,6.8,1172038.0,4.0,No,Onsite,12.0,20,No,No,2022-07-23
+EMP00155,Rohan Mehta,46,Other,R&D,Executive,Delhi NCR,M.Tech,6.8,592116.0,1.0,No,Onsite,15.0,98,No,No,2018-12-07
+EMP00848,Nisha Roy,17,Female,R&D,Executive,Indore,B.Tech,4.9,1207639.0,3.0,Yes,Hybrid,0.0,32,No,No,2021-12-23
+EMP00158,Muskan Gupta,25,Female,Legal,Engineer,Kolkata,BBA,6.0,308869.0,1.0,No,Hybrid,7.0,43,No,No,2014-06-14
+EMP00617,Ritesh Kumar,22,Other,HR,Manager,Bhopal,B.E.,0.0,323864.0,5.0,No,Remote,7.0,99,No,No,2018-09-25
+EMP00127,Karan Joshi,51,Female,Operations,Engineer,Indore,M.Tech,30.0,1118814.0,3.0,Yes,Remote,5.0,72,No,No,2013-09-09
+EMP00288,Manish Tiwari,58,Other,,Engineer,Hydrabad,MBA,13.8,823315.0,2.0,Yes,Remote,1.0,76,No,Yes,
+EMP00330,Siddharth Jain,59,Other,Legal,Executive,Kolkata,MCA,11.9,911362.0,1.0,Yes,Hybrid,5.0,102,No,No,2015-06-25
+EMP00506,Siddharth  Jain,30,Other,Operations,Executive,Bangalore,B.Com,6.8,1172081.0,2.0,Yes,Hybrid,3.0,18,Yes,Yes,
+EMP00372,Harsh Vardhan,56,Other,R&D,Data Analist,Indore,BBA,2.9,253387.0,3.0,Yes,Hybrid,8.0,5,No,No,
+EMP00480,Aarav Sharma,24,Male,HR,HR Executive,Bangalore,B.Tech,5.0,992040.0,1.0,No,Hybrid,2.0,40,No,No,2016-08-30
+EMP00131,Sanjay Mishra,21,Unknown,IT,HR Executive,Bangalore,Unknown,6.8,1093086.0,5.0,,Onsite,1.0,48,No,No,2020-09-09
+EMP00689,Vivaan Verma,43,Male,R&D,Engineer,Indore,B.Com,13.1,500000.0,4.0,No,Onsite,5.0,32,No,Yes,2025-09-25
+EMP00353,Kavya Gupta,38,Other,Sales,,Bhopal,B.E.,6.8,752745.0,4.0,No,Hybrid,3.0,0,Yes,Yes,
+EMP00037,Meera Nair,34,Female,Finance,Manager,Unknown,MCA,15.0,1670216.0,3.0,Yes,Remote,2.0,56,No,No,2018-08-21
+EMP00201,Divya Joshi,51,Unknown,HR,Engineer,Ahemdabad,M.Tech,6.2,10000000.0,1.0,No,Hybrid,5.0,200,Yes,No,2018-07-02
+EMP00749,Rahul Patel,53,Male,HR,Engineer,Hydrabad,B.Sc,4.1,789758.0,3.0,Yes,Hybrid,3.0,77,No,No,2020-11-22
+EMP00156,Neha Mehta,58,Female,Engineering,Engineer,Indore,B.Sc,10.1,764536.0,3.0,Yes,Onsite,5.0,60,Yes,No,2025-04-27
+EMP00899,Sanjay Mishra,33,Male,Unknown,Data Analist,Hydrabad,M.Com,7.7,500000.0,5.0,Yes,Remote,8.0,48,Yes,No,2020-01-20
+EMP00531,Tanya Kapoor,51,Female,Operations,Data Analist,Chennai,PHD,6.3,750000.0,4.0,No,Remote,11.0,41,Yes,Yes,2025-12-26
+EMP00155,Rohan Mehta,46,Other,HR,Executive,Delhi NCR,M.Tech,6.8,650000.0,1.0,No,Onsite,15.0,98,No,No,2018-12-07
+EMP00079,Isha Kapoor,38,Unknown,Operations,Executive,Indore,B.Com,10.0,823315.0,1.0,Yes,Hybrid,5.0,0,No,No,2015-05-05
+EMP00192,Harsh Vardhan,39,Female,Finance,Engineer,Pune,PHD,16.0,1312007.0,2.0,No,Hybrid,7.0,4,Yes,Yes,
+EMP00630,Akash Patel,53,Female,Legal,Engineer,Chennai,B.Com,14.5,1367141.0,4.0,No,Office,6.0,0,No,No,2015-06-27
+EMP00375,Manish Tiwari,51,Male,Operations,Engineer,Hydrabad,B.Com,8.2,823315.0,5.0,Yes,WHF,1.0,200,No,Yes,2015-10-04
+EMP00403,Karan Joshi,25,Female,Operations,Executive,Chennai,BBA,6.8,1071009.0,4.0,Yes,Onsite,0.0,59,Yes,No,2015-02-04
+EMP00197,Manish Tiwari,22,Female,IT,Executive,Bangalore,M.Tech,3.0,539634.0,5.0,No,Hybrid,3.0,56,No,No,2015-07-06
+EMP00389,Rohan Mehta,22,Female,IT,Executive,Kolkata,BBA,3.0,289837.0,4.0,Yes,Onsite,9.0,3,No,No,2015-10-07
+EMP00406,Sanjay Mishra,28,Female,Legal,Engineer,Bhopal,Unknown,3.6,721882.0,5.0,Yes,WFH,6.0,40,Yes,No,2018-11-28
+EMP00823,Divya Joshi,25,Female,Legal,Manager,Kolkata,B.Tech,3.6,902609.0,5.0,No,Hybrid,3.0,41,No,No,2016-10-23
+EMP00178,Muskan Gupta,41,Male,HR,Engineer,Nagpur,Diploma,1.4,521093.0,3.0,No,Remote,3.0,116,Yes,No,2016-08-13
+EMP00378,Harsh Vardhan,39,Unknown,HR,Manager,Indore,B.E.,8.8,1327153.0,4.0,No,Hybrid,9.0,40,No,No,2016-10-06
+EMP00529,Manish-Tiwari,38,Male,Customer Support,Manager,Nagpur,B.Com,13.8,1603523.0,3.0,No,Remote,0.0,77,Yes,Yes,2013-06-10
+EMP00032,Aditya Singh,38,Other,Finance,Business Development Executive,Delhi NCR,B.Sc,5.7,531894.0,2.0,No,Remote,4.0,15,No,No,2024-05-18
+EMP00060,Riya Jain,41,Male,Sales,Executive,Delhi NCR,B.Sc,0.1,507783.0,2.0,Yes,Remote,0.0,46,Yes,Yes,
+EMP00126,Rohan Mehta,38,Male,IT,,Bangalore,B.Sc,12.7,750000.0,2.0,Yes,Office,7.0,43.0,Yes,Yes,2022-12-06
+EMP00856,Neha Mehta,53,Unknown,Marketing,Engineer,Bhopal,M.Com,0.0,533269.0,3.0,Yes,Remote,5.0,49,No,No,2013-03-28
+EMP00731,Sakshi Singh,29,Male,Legal,Executive,Bhopal,M.Com,9.4,1324116.0,4.0,Yes,Onsite,2.0,79,No,Yes,2015-07-07
+EMP00726,Riya Jain,24,Other,Legal,Manager,Chennai,M.Com,5.0,419178.0,3.0,No,Remote,5.0,63,No,No,2024-11-28
+EMP00826,Amit Kumar,54,Male,,Engineer,Ahemdabad,B.Com,7.7,823315.0,5.0,No,Remote,8.0,68,Yes,No,2021-01-26
+EMP00022,Pooja Yadav,26,Male,Marketing,Data Analist,Indore,B.Tech,7.0,780962.0,3.0,Yes,Remote,3.0,23,Yes,No,2024-05-11
+EMP00543,Harsh Vardhan,56,Female,Finance,,Kolkata,Diploma,11.2,1440626.0,1.0,Yes,Hybrid,7.0,30,No,No,2013-04-26
+EMP00401,Akash Patel,21,Female,,Manager,Delhi NCR,B.Com,2.0,750000.0,4.0,No,Remote,10.0,0,Yes,No,2015-02-25
+EMP00226,Arjun Gupta,60,Female,Marketing,Engineer,Bangalore,B.Com,11.7,1570566.0,2.0,No,Hybrid,5.0,40,Yes,No,2017-01-04
+EMP00097,Akash Patel,35,Female,Operations,Engineer,Bangalore,BBA,6.8,905156.0,3.0,Yes,Onsite,0.0,64,No,No,2019-10-19
+EMP00654,Arjun Gupta,33,Male,R&D,Executive,Ahemdabad,Diploma,6.8,536629.0,3.0,No,Onsite,0.0,16,Yes,No,2013-11-15
+EMP00462,Sanjay Mishra,24,Male,Sales,Engineer,Kolkata,B.E.,4.4,380437.0,2.0,No,Hybrid,5.0,40,No,No,2025-10-23
+EMP00448,Aditya Singh,28,Male,Finance,Data Analist,Kolkata,M.Com,9.0,1207209.0,4.0,No,Onsite,5.0,51,Yes,No,2025-04-19
+EMP00658,Rahul Patel,33,Other,IT,Engineer,Hydrabad,M.Com,6.8,859592.0,4.0,No,Remote,0.0,45,Yes,No,2018-05-24
+EMP00851,Meera Nair,58,Male,Finance,Engineer,Bhopal,Unknown,7.4,1357274.0,4.0,No,Onsite,5.0,64,Yes,No,
+EMP00536,Nisha Roy,35,Female,Customer Support,Manager,Kolkata,Unknown,6.8,1045245.0,3.0,No,Hybrid,5.0,0,No,No,2016-11-10
+EMP00546,Tanya Kapoor,23,Male,Legal,Engineer,Bhopal,Unknown,2.2,944782.0,4.0,,Hybrid,3.0,26,No,Yes,2014-04-15
+EMP00427,Sanjay Mishra,58,Other,Marketing,Data Analist,Pune,M.Com,11.0,1442862.0,4.0,No,Hybrid,5.0,43.0,Yes,Yes,
+EMP00671,Divya Joshi,38,Female,IT,Engineer,Bangalore,Unknown,6.8,761908.0,2.0,Yes,Hybrid,0.0,73,No,No,2014-10-05
+EMP00843,Isha Kapoor,32,Other,HR,Engineer,Jaipur,B.Com,13.0,1583823.0,6.0,Yes,Onsite,10.0,56,Yes,Yes,2025-05-02
+EMP00637,Divya  Joshi,53,Female,IT,Executive,Pune,B.E.,30.0,1200000.0,3.0,No,Remote,3.0,44,Yes,No,2018-09-04
+EMP00589,Amit Kumar,50,Unknown,,Engineer,Bhopal,M.Tech,0.0,564115.0,6.0,Yes,Onsite,0.0,36,No,No,2014-03-29
+EMP00634,Muskan Gupta,21,Other,Customer Support,Executive,Pune,MBA,2.0,237330.0,4.0,Yes,Hybrid,6.0,56,No,No,2015-10-28
+EMP00530,Priya Verma,51,Male,Legal,Executive,Delhi NCR,BBA,30.0,750000.0,2.0,No,Remote,0.0,62,No,No,
+EMP00085,Rahul Patel,38,Female,Sales,,Nagpur,MBA,6.1,333389.0,2.0,,Hybrid,9.0,40,No,Yes,2018-07-14
+EMP00054,Ritesh Kumar,54,Unknown,Sales,Manager,Kolkata,B.Com,11.4,823315.0,4.0,No,Remote,3.0,45,Yes,No,
+EMP00686,Ananya Sharma,56,Male,Engineering,Data Analist,Chennai,B.Sc,2.1,661253.0,4.0,No,Hybrid,1.0,60,No,Yes,2023-11-15
+EMP00684,Isha Kapoor,35,Other,Sales,Executive,Hydrabad,Unknown,16.0,1228618.0,4.0,Yes,Remote,5.0,200,No,Yes,2018-03-12
+EMP00669,Sanjay Mishra,35,Male,Finance,,Delhi NCR,BBA,6.0,833107.0,3.0,Yes,Hybrid,11.0,0,Yes,No,2023-03-12
+EMP00739,Sakshi Singh,29,Unknown,Customer Support,Engineer,Nagpur,M.Tech,6.2,600000.0,2.0,No,Remote,20.0,57,Yes,Yes,2025-04-14
+EMP00872,Manish Tiwari,27,Other,IT,Data Analist,Bhopal,B.Tech,8.0,1006378.0,1.0,No,WFH,9.0,45,No,No,2021-10-20
+EMP00647,Priya Verma,59,Male,Sales,Engineer,Chennai,B.Tech,11.3,901614.0,4.0,No,Remote,8.0,0,No,No,2017-11-02
+EMP00328,Sakshi Singh,42,Unknown,Operations,Unknown,Mumbai,MCA,8.8,860351.0,1.0,Yes,Remote,0.0,68,No,No,2017-11-12
+EMP00382,Rohan Mehta,58,Other,HR,HR Executive,Jaipur,B.E.,12.5,1296580.0,1.0,Yes,Remote,11.0,30,No,No,2023-02-10
+EMP00585,Vivaan Verma,38,Other,Sales,Data Analist,Indore,MCA,5.1,1110769.0,3.0,No,Remote,3.0,42,Yes,Yes,2014-05-23
+EMP00116,Priya Verma,38,Other,HR,Engineer,Mumbai,B.Sc,5.0,870489.0,5.0,Yes,Remote,9.0,65,No,Yes,2018-11-03
+EMP00484,Deepak Verma,50,Female,Operations,Engineer,Chennai,Unknown,8.0,1105162.0,4.0,No,Hybrid,9.0,93,Yes,No,2020-03-31
+EMP00256,Aarav Sharma,60,Other,Sales,Recruiter,Ahemdabad,Graduate,6.9,628462.0,2.0,No,Onsite,5.0,27,Yes,No,2015-12-01
+EMP00088,Aarav Sharma,25,Unknown,Marketing,Data Analist,Delhi NCR,MBA,20.0,563216.0,4.0,No,Hybrid,16.0,39,No,No,2017-06-05
+EMP00611,Muskan Gupta,21,Male,IT,Data Analist,Bhopal,PHD,2.0,750000.0,4.0,No,Onsite,5.0,56,No,No,2020-09-10
+EMP00323,Sneha Singh,50,Other,Customer Support,Data Analist,Chennai,Unknown,19.2,823315.0,4.0,Yes,Remote,2.0,26,Yes,Yes,
+EMP00861,Rohan Mehta,38,Female,IT,Engineer,Indore,B.E.,10.8,609553.0,2.0,,Remote,5.5,0,No,No,2023-02-08
+EMP00085,Rahul Patel,38,Female,IT,,Nagpur,MBA,6.1,650000.0,2.0,,Hybrid,9.0,40,No,Yes,2018-07-14
+EMP00553,Sneha Singh,51,Other,Legal,Data Analist,Jaipur,Unknown,7.1,1307268.0,5.0,Yes,Onsite,9.0,78,No,Yes,2025-06-23
+EMP00134,Arjun Gupta,38,Other,IT,Business Development Executive,Bhopal,B.E.,0.0,185828.0,4.0,No,Onsite,0.0,0,Yes,Yes,2015-03-25
+EMP00194,Neha Mehta,24,Female,R&D,Engineer,Pune,B.Tech,5.0,763927.0,3.0,Yes,,1.0,79,Yes,No,2020-08-05
+EMP00575,Karan Joshi,38,Male,Finance,Executive,Hydrabad,M.Tech,11.0,823315.0,5.0,No,Hybrid,17.0,27,No,Yes,
+EMP00125,Manish Tiwari,33,Female,IT,Executive,Hydrabad,B.Tech,14.0,650000.0,4.0,Yes,Remote,1.0,23,Yes,No,2020-02-11
+EMP00655,Divya Joshi,38,Male,Engineering,Engineer,Nagpur,B.Com,5.8,665144.0,1.0,No,Remote,5.0,44,No,No,
+EMP00760,Deepak Verma,34,Female,IT,Engineer,Bangalore,B.Sc,7.6,1677556.0,5.0,No,Remote,8.0,17,Yes,No,2017-11-28
+EMP00490,Tanya Kapoor,60,Female,IT,Data Analist,Kolkata,M.Com,6.8,1087247.0,2.0,Yes,Hybrid,9.0,45,No,No,2024-03-08
+EMP00487,Vivaan Verma,48,Unknown,Customer Support,Executive,Kolkata,M.Tech,11.3,1278025.0,4.0,Yes,Onsite,8.0,70,No,No,2021-02-16
+EMP00387,Neha Mehta,43,Male,R&D,Executive,Indore,B.Tech,10.2,823315.0,2.0,No,Onsite,2.0,46,Yes,Yes,2020-11-02
+EMP00766,Nisha Roy,52,Female,Legal,Manager,Chennai,BBA,5.5,823315.0,2.0,Yes,Onsite,5.0,43,No,No,2021-01-17
+EMP00073,Karan Joshi,33,Other,IT,Manager,Delhi NCR,B.Com,13.2,823315.0,3.0,No,Remote,3.0,71,No,No,2020-04-04
+EMP00211,Riya Jain,31,Male,Customer Support,Engineer,Mumbai,BBA,0.0,364058.0,3.0,No,Remote,2.0,56,No,No,2015-04-16
+EMP00514,Deepak Verma,49,Unknown,IT,Engineer,Unknown,MBA,7.6,450000.0,4.0,Yes,Remote,6.0,25,Yes,No,2021-04-17
+EMP00538,Aditya Singh,37,Male,Engineering,Engineer,Kolkata,M.Com,1.6,224802.0,5.0,Yes,Hybrid,6.0,0,Yes,Yes,2017-10-18
+EMP00754,Aditya Singh,52,Male,IT,Engineer,Jaipur,B.Sc,5.0,593386.0,3.0,No,Hybrid,1.0,26,No,Yes,2018-09-14
+EMP00458,Riya Jain,21,Female,Operations,Engineer,Kolkata,M.Tech,6.8,655606.0,1.0,Yes,Onsite,2.0,29,Yes,No,2020-02-06
+EMP00055,Divya Joshi,35,Other,Customer Support,Data Analist,Jaipur,PHD,0.0,150000.0,2.0,No,Hybrid,0.0,92,No,No,2017-07-30
+EMP00023,Sanjay Mishra,31,Male,Finance,Executive,Delhi NCR,MBA,0.2,823315.0,1.0,No,Hybrid,0.0,88,Yes,No,2026-06-20
+EMP00691,Muskan Gupta,53,Male,Sales,Engineer,Hydrabad,B.E.,5.0,1033947.0,4.0,No,Remote,9.0,63,No,Yes,
+EMP00466,Ananya Sharma,30,Male,Customer Support,Executive,Delhi NCR,BBA,6.8,150000.0,10.0,No,Remote,1.0,40,Yes,No,2016-12-31
+EMP00279,Siddharth Jain,56,Female,Customer Support,Engineer,Bangalore,MBA,8.8,450000.0,6.0,Yes,Hybrid,6.0,40,Yes,Yes,2018-08-16
+EMP00081,Amit Kumar,36,Male,Marketing,Executive,Mumbai,PHD,6.8,739326.0,10.0,Yes,Remote,5.0,5,Yes,No,2018-10-12
+EMP00569,Isha Kapoor,27,Female,,Engineer,Delhi NCR,Unknown,6.8,512100.0,4.0,Yes,Onsite,7.0,77,Yes,No,2018-03-12
+EMP00571,Siddharth Jain,25,Other,Operations,Manager,Ahemdabad,MBA,6.0,436034.0,1.0,No,Hybrid,20.0,-5,Yes,No,2026-04-02
+EMP00363,Vivaan Verma,38,Male,Legal,Manager,Delhi NCR,Unknown,5.6,600000.0,4.0,Yes,Onsite,6.0,96,Yes,No,2015-10-23
+EMP00528,Aarav Sharma,39,Other,Sales,Manager,Bhopal,B.Com,5.2,686451.0,4.0,No,unknown,20.0,74,Yes,Yes,2025-06-07
+EMP00225,Rohan Mehta,23,Other,IT,Quality Assurance,Unknown,MBA,4.0,643353.0,4.0,No,Onsite,2.0,27,No,Yes,
+EMP00190,Divya Joshi,33,Female,Marketing,Manager,Ahemdabad,MBA,3.5,424339.0,1.0,No,Remote,7.0,43.0,No,No,2022-11-08
+EMP00313,Harsh Vardhan,38,Male,IT,Data Analist,Indore,PHD,0.0,742511.0,3.0,,Onsite,7.0,77,No,No,2021-11-01
+EMP00446,Sneha Singh,50,Male,R&D,Data Analist,Delhi NCR,M.Com,6.8,1630726.0,3.0,No,Onsite,0.0,8,No,No,2018-06-14
+EMP00719,Manish Tiwari,38,Female,R&D,Sales Executive,Mumbai,Unknown,11.5,923337.0,1.0,,Onsite,7.0,84,Yes,No,2020-11-23
+EMP00137,Ananya Sharma,50,Female,IT,Data Analist,Indore,Graduate,6.8,1030186.0,3.0,sometimes,Hybrid,5.0,91,Yes,No,2015-07-23
+EMP00100,Manish Tiwari,44,Male,Operations,Manager,Delhi NCR,BBA,7.5,596304.0,1.0,Yes,WFH,5.0,18,No,No,
+EMP00578,Akash Patel,42,Other,Engineering,Executive,Ahemdabad,Diploma,18.0,1451963.0,1.0,Yes,WFH,2.0,0,No,Yes,2024-08-11
+EMP00169,Aditya Singh,60,Male,Customer Support,Engineer,Ahemdabad,Diploma,3.3,711751.0,4.0,No,Onsite,6.0,50,No,No,2024-12-01
+EMP00424,Rohan Mehta,39,Female,IT,Data Analist,Chennai,Graduate,7.9,1200000.0,3.0,Yes,Onsite,6.0,42,Yes,No,2018-06-14
+EMP00836,Pooja-Yadav,60,Unknown,,Business Development Executive,Unknown,MCA,4.6,648341.0,1.0,No,Hybrid,6.0,99,Yes,No,2025-10-03
+EMP00550,Meera Nair,25,Other,HR,Data Analist,Indore,M.Tech,6.0,823315.0,3.0,No,Onsite,5.0,52,Yes,Yes,2022-01-04
+EMP00287,Komal Sharma,38,Male,Operations,Data Analist,Jaipur,B.Sc,9.3,1259321.0,1.0,No,Onsite,3.0,45,Yes,Yes,2023-07-25
+EMP00215,Aarav Sharma,44,Other,Sales,Executive,Delhi NCR,Graduate,10.5,1497047.0,1.0,Yes,Remote,11.0,69,No,No,2025-12-03
+EMP00262,Sneha Singh,49,Male,Marketing,Manager,Mumbai,B.Tech,5.4,823315.0,4.0,Yes,Onsite,5.0,20,Yes,No,2019-12-25
+EMP00139,Muskan Gupta,35,Female,Finance,Data Analist,Indore,BBA,11.4,823315.0,1.0,Yes,Onsite,3.0,53,No,No,2014-04-09
+EMP00594,Meera Nair,17,Other,Engineering,Manager,Bangalore,B.Com,10.1,715395.0,3.0,No,Remote,6.0,55,No,No,2017-03-15
+EMP00797,Ritesh Kumar,23,Other,Sales,Manager,Ahemdabad,Diploma,0.0,664962.0,3.0,Yes,Onsite,7.0,36,No,No,2021-08-25
+EMP00241,Meera Nair,33,Female,IT,Manager,Bangalore,B.Sc,11.0,1334174.0,5.0,No,Onsite,20.0,77,Yes,Yes,2017-08-24
+EMP00245,Meera Nair,57,Female,R&D,Executive,Nagpur,B.E.,11.5,823315.0,1.0,No,Remote,15.0,45,No,No,2017-02-08
+EMP00358,Ritesh Kumar,29,Other,IT,Engineer,Pune,B.E.,10.0,500000.0,6.0,sometimes,,5.0,51,No,No,2018-08-11
+EMP00042,Ananya Sharma,52,Female,R&D,Executive,Jaipur,BBA,10.0,861428.0,3.0,No,Remote,5.0,45,No,Yes,
+EMP00004,Pooja Yadav,34,Unknown,Engineering,Manager,Nagpur,B.Tech,0.0,10000000.0,5.0,Yes,Remote,0.0,40,Yes,No,2014-10-03
+EMP00035,Kavya Gupta,25,Male,,Executive,Delhi NCR,B.Com,5.0,614326.0,10.0,unknown,Office,5.0,43.0,Yes,No,2019-01-29
+EMP00236,Komal Sharma,29,Other,R&D,Manager,Delhi NCR,PHD,1.8,150000.0,3.0,No,Remote,5.0,43.0,Yes,Yes,2017-04-14
+EMP00110,Priya Verma,37,Male,R&D,Executive,Bangalore,MCA,6.8,870171.0,6.0,No,Hybrid,8.0,200,No,No,
+EMP00873,Muskan Gupta,38,Other,R&D,Engineer,Hydrabad,M.Tech,10.0,716702.0,4.0,Yes,Onsite,5.0,45,No,No,2015-09-02
+EMP00348,Tanya Kapoor,36,Other,,Sales Executive,Delhi NCR,B.Com,10.1,450000.0,4.0,Yes,Remote,0.0,132,No,No,2023-10-11
+EMP00652,Ananya Sharma,25,Other,Operations,Recruiter,Delhi NCR,Diploma,2.7,449742.0,3.0,Yes,Hybrid,3.0,43,No,No,2015-07-16
+EMP00290,Divya Joshi,29,Other,Operations,Executive,Delhi NCR,B.Sc,6.0,1046363.0,4.0,No,Remote,0.0,42,Yes,No,2014-07-27
+EMP00720,Tanya Kapoor,39,Male,HR,Manager,Bangalore,BBA,2.2,918787.0,2.0,Yes,Onsite,8.0,-5,Yes,No,2015-02-24
+EMP00859,Ritesh-Kumar,23,Female,Legal,Manager,Chennai,B.Sc,30.0,489736.0,2.0,Yes,Onsite,5.0,77,No,No,2014-03-02
+EMP00255,Ananya Sharma,30,Other,,Manager,Jaipur,MCA,3.3,696814.0,5.0,Yes,Hybrid,4.0,72,Yes,No,2021-04-25
+EMP00272,Rahul Patel,32,Female,R&D,Data Analist,Kolkata,B.Tech,5.9,988732.0,4.0,No,Onsite,14.0,0,No,No,2017-06-14
+EMP00846,Vivaan Verma,35,Other,Finance,Executive,Jaipur,BBA,4.0,314916.0,5.0,No,Remote,8.0,63,No,No,2019-05-13
+EMP00710,Aditya Singh,55,Female,Operations,Business Development Executive,Delhi NCR,B.E.,0.0,150000.0,4.0,No,Hybrid,0.0,97,Yes,No,2017-04-08
+EMP00787,Meera Nair,55,Female,Sales,Engineer,Ahemdabad,MCA,10.8,1647239.0,5.0,No,,7.0,40,No,No,2022-09-09
+EMP00386,Sakshi Singh,46,Male,HR,Executive,Bangalore,M.Tech,7.3,823315.0,1.0,No,Onsite,3.0,62,Yes,No,2022-12-23
+EMP00540,Akash Patel,37,Other,Marketing,Executive,Indore,PHD,1.8,806811.0,2.0,Yes,Hybrid,13.0,40,Yes,Yes,2022-11-22
+EMP00642,Sneha Singh,32,Male,IT,Executive,Chennai,MCA,7.1,600000.0,3.0,No,Remote,7.0,6,Yes,No,2015-10-21
+EMP00664,Amit Kumar,30,Other,Finance,Manager,Jaipur,B.E.,30.0,1594750.0,1.0,Yes,Onsite,5.0,55,Yes,No,2024-06-22
+EMP00364,Ritesh Kumar,46,Male,Unknown,Engineer,Jaipur,M.Tech,10.5,752831.0,1.0,Yes,Onsite,8.0,47,No,No,
+EMP00883,Meera  Nair,32,Female,R&D,Manager,Ahemdabad,BBA,10.0,1064515.0,1.0,No,Remote,6.0,108,Yes,Yes,2022-07-20
+EMP00008,Deepak Verma,25,Male,IT,Manager,Jaipur,B.Sc,6.0,905956.0,4.0,Yes,,12.0,48,Yes,No,2015-10-04
+EMP00656,Arjun Gupta,40,Female,Legal,Executive,Hydrabad,PHD,4.0,1083716.0,3.0,Yes,Remote,1.0,89,Yes,No,2026-01-25
+EMP00121,Rohan  Mehta,46,Female,Customer Support,Executive,Hydrabad,B.Com,4.1,1046602.0,5.0,Yes,,4.0,40,No,No,2015-03-10
+EMP00266,Aditya Singh,29,Male,Legal,Data Analist,Unknown,BBA,5.0,569424.0,5.0,,Remote,5.0,54,Yes,No,
+EMP00724,Aditya Singh,38,Unknown,R&D,Sales Executive,Nagpur,B.Tech,11.1,1279496.0,5.0,No,Remote,5.0,19,Yes,No,2014-02-13
+EMP00504,Rohan Mehta,51,Other,IT,Manager,Chennai,BBA,7.9,863973.0,1.0,Yes,Hybrid,1.0,0,No,No,2018-01-03
+EMP00781,Tanya Kapoor,31,Unknown,HR,Executive,Bangalore,PHD,7.5,1022055.0,4.0,No,Hybrid,10.0,41,No,No,
+EMP00422,Divya Joshi,48,Other,IT,Executive,Delhi NCR,MCA,17.9,1461960.0,1.0,Yes,Onsite,7.0,72,Yes,No,
+EMP00620,Riya  Jain,35,Other,Customer Support,Manager,Nagpur,Diploma,0.0,302611.0,4.0,No,Remote,11.0,101,Yes,No,2017-07-13
+EMP00510,Aditya Singh,31,Other,Sales,Manager,Indore,MCA,6.7,727792.0,3.0,No,Remote,9.0,62,Yes,No,
+EMP00191,Nisha Roy,23,Other,Operations,Manager,Nagpur,M.Tech,4.0,939467.0,10.0,No,Onsite,5.0,51,Yes,No,2018-12-18
+EMP00150,Nisha Roy,49,Male,Sales,Manager,Mumbai,Diploma,5.2,823315.0,4.0,No,Onsite,11.0,45,No,No,2025-12-09
+EMP00141,Ritesh  Kumar,37,Unknown,Legal,Executive,Indore,M.Tech,7.8,1054439.0,5.0,Yes,Remote,0.0,43,Yes,No,2019-05-18
+EMP00825,Sakshi Singh,22,Unknown,Customer Support,Manager,Bangalore,M.Com,0.0,915001.0,3.0,No,Onsite,6.0,0,No,No,2016-01-07
+EMP00835,Sneha Singh,60,Female,IT,Executive,Unknown,M.Com,6.1,1154650.0,5.0,Yes,Remote,8.0,18,No,Yes,2022-08-25
+EMP00065,Meera Nair,40,Male,Operations,,Unknown,MBA,1.8,604458.0,3.0,Yes,unknown,7.0,55,No,No,2026-06-01
+EMP00765,Harsh Vardhan,35,Female,Finance,Executive,Delhi NCR,M.Com,3.5,1421607.0,3.0,,Remote,9.0,13,No,No,2024-08-06
+EMP00892,Sneha Singh,23,Other,Sales,Engineer,Ahemdabad,MBA,4.0,649652.0,1.0,Yes,,0.0,23,No,No,2015-11-01
+EMP00782,Kavya Gupta,48,Unknown,Marketing,Executive,Kolkata,PHD,13.4,1719747.0,5.0,Yes,Hybrid,8.0,84,No,No,2024-10-12
+EMP00383,Aarav Sharma,34,Female,Engineering,Executive,Unknown,M.Tech,6.0,1375725.0,6.0,No,WFH,5.0,63,No,Yes,2020-05-23
+EMP00159,Karan Joshi,35,Female,Unknown,Data Analist,Jaipur,B.Sc,6.2,450000.0,4.0,Yes,Remote,1.0,43.0,Yes,No,2022-04-15
+EMP00740,Akash  Patel,37,Female,Unknown,Engineer,Nagpur,B.E.,15.7,1416641.0,9.0,No,Hybrid,7.0,48,Yes,No,2014-07-29
+EMP00560,Muskan Gupta,21,Female,Sales,Manager,Indore,MBA,2.0,865675.0,3.0,No,Remote,6.0,69,Yes,No,2021-11-18
+EMP00400,Pooja Yadav,35,Other,IT,Data Analist,Bangalore,MBA,5.3,575668.0,6.0,Yes,Remote,0.0,88,No,No,2015-09-18
+EMP00012,Rahul Patel,30,Other,IT,Sales Executive,Chennai,M.Tech,8.7,865255.0,3.0,No,Hybrid,14.0,107,No,No,2023-03-21
+EMP00013,Isha Kapoor,53,Male,IT,Engineer,Bhopal,Diploma,3.5,976148.0,1.0,No,WFH,11.0,38,No,Yes,2018-05-30
+EMP00046,Divya Joshi,38,Female,Operations,Manager,Indore,MBA,6.8,526366.0,3.0,No,Hybrid,1.0,41,Yes,Yes,
+EMP00878,Sanjay Mishra,24,Male,Customer Support,Engineer,Ahemdabad,MCA,2.2,774022.0,1.0,sometimes,Remote,14.0,0,Yes,Yes,2025-12-21
+EMP00628,Neha Mehta,30,Male,Finance,Executive,Nagpur,MBA,8.4,823315.0,5.0,No,Onsite,5.0,43,No,No,2024-09-01
+EMP00711,Komal Sharma,34,Male,Engineering,Recruiter,Bangalore,PHD,5.9,1155024.0,3.0,No,Hybrid,20.0,8,Yes,No,2016-11-26
+EMP00356,Akash Patel,43,Male,Operations,Manager,Delhi NCR,B.Com,7.8,668557.0,2.0,No,Onsite,10.0,100,Yes,No,2020-02-20
+EMP00041,Sneha Singh,32,Unknown,Finance,Data Analist,Chennai,M.Com,13.0,823315.0,4.0,,Remote,5.0,43,No,No,2026-01-14
+EMP00210,Ananya Sharma,38,Female,IT,Manager,Indore,M.Tech,9.5,899509.0,1.0,No,Onsite,2.0,36,Yes,No,2017-01-07
+EMP00232,Priya Verma,26,Female,Sales,Engineer,Chennai,PHD,7.0,1079998.0,0.0,Yes,unknown,5.5,37,Yes,No,2022-12-17
+EMP00525,Muskan Gupta,60,Male,Customer Support,Data Analist,Nagpur,B.Tech,9.3,1448125.0,5.0,Yes,Remote,10.0,200,Yes,No,2018-03-16
+EMP00345,Riya Jain,22,Other,Operations,Engineer,Chennai,M.Com,3.0,423882.0,9.0,No,Hybrid,6.0,28,No,Yes,2017-02-27
+EMP00288,Manish Tiwari,58,Other,HR,Engineer,Hydrabad,MBA,13.8,10000000.0,2.0,Yes,Remote,1.0,76,No,Yes,
+EMP00461,Rohan Mehta,34,Female,R&D,Executive,Indore,MBA,13.4,1420633.0,2.0,No,,4.0,70,Yes,No,2017-10-31
+EMP00235,Ritesh Kumar,56,Female,Sales,Engineer,Bangalore,M.Com,11.3,1259730.0,1.0,Yes,Hybrid,3.0,20,Yes,Yes,2023-07-22
+EMP00107,Ritesh Kumar,44,Male,Finance,Executive,Hydrabad,MBA,2.6,426510.0,2.0,Yes,Hybrid,4.0,27,No,No,2022-08-12
+EMP00200,Meera Nair,38,Other,Finance,Data Analist,Nagpur,PHD,6.8,823315.0,2.0,Yes,Onsite,15.0,21,No,No,2018-05-06
+EMP00698,Arjun Gupta,21,Male,Marketing,Data Analist,Jaipur,B.Sc,2.0,620690.0,3.0,Yes,Onsite,5.0,62,No,No,2019-07-26
+EMP00693,Nisha Roy,54,Female,Engineering,Business Development Executive,Hydrabad,B.Tech,9.6,1304101.0,3.0,No,Onsite,4.0,107,Yes,No,2025-12-12
+EMP00214,Komal Sharma,57,Unknown,,Engineer,Nagpur,BBA,7.4,650000.0,5.0,No,Onsite,5.0,0,No,No,2025-02-14
+EMP00344,Komal Sharma,29,Other,Finance,Data Analist,Pune,Diploma,3.5,1245302.0,1.0,Yes,Hybrid,0.0,45,Yes,No,2017-04-17
+EMP00036,Aditya Singh,52,Female,IT,Manager,Unknown,B.Tech,4.6,1004693.0,3.0,,Hybrid,15.0,22,No,No,2022-09-10
+EMP00064,Amit Kumar,38,Other,Sales,Executive,Ahemdabad,PHD,8.5,1128719.0,5.0,No,Onsite,8.0,0,Yes,No,2020-03-29
+EMP00713,Priya Verma,40,Other,Marketing,Engineer,Ahemdabad,MBA,5.1,616487.0,5.0,Yes,Onsite,7.0,0,No,Yes,
+EMP00861,Rohan Mehta,38,Female,IT,Engineer,Indore,B.E.,10.8,650000.0,2.0,,Remote,5.5,0,No,No,2023-02-08
+EMP00384,Divya Joshi,38,Other,HR,Data Analist,Delhi NCR,B.Sc,8.2,966964.0,2.0,Yes,unknown,8.0,44,Yes,No,2017-12-27
+EMP00157,Sanjay Mishra,38,Other,IT,Executive,Ahemdabad,BBA,16.2,1383573.0,2.0,No,Remote,3.0,85,Yes,No,2017-03-28
+EMP00151,Akash Patel,43,Female,Finance,Data Analist,Delhi NCR,M.Tech,2.2,150000.0,4.0,Yes,Onsite,0.0,33,No,No,2021-05-17
+EMP00132,Muskan Gupta,43,Male,Marketing,Engineer,Mumbai,MBA,11.4,500000.0,1.0,,Hybrid,8.0,0,No,Yes,
+EMP00600,Priya Verma,35,Other,Marketing,Engineer,Unknown,Graduate,15.0,823315.0,5.0,Yes,Remote,0.0,40,No,No,2014-02-13
+EMP00649,Arjun Gupta,38,Other,Customer Support,Engineer,Ahemdabad,M.Tech,6.8,600000.0,5.0,No,Hybrid,2.0,21,Yes,No,2024-06-16
+EMP00860,Tanya Kapoor,32,Male,IT,Manager,Hydrabad,B.Sc,9.7,906591.0,3.0,No,WHF,5.0,52,Yes,No,2019-01-16
+EMP00777,Sanjay Mishra,38,Other,IT,Engineer,Bhopal,B.E.,4.2,948884.0,4.0,Yes,Onsite,0.0,3,Yes,No,2025-06-02
+EMP00321,Aditya Singh,41,Female,Sales,Data Analist,Jaipur,B.Com,0.0,823315.0,3.0,Yes,Onsite,1.0,40,Yes,No,2020-07-02
+EMP00214,Komal Sharma,57,Unknown,Marketing,Engineer,Nagpur,BBA,7.4,1133543.0,5.0,No,Onsite,5.0,0,No,No,2025-02-14
+EMP00011,Ritesh Kumar,38,Female,IT,Executive,Nagpur,BBA,11.8,1359870.0,5.0,No,Remote,5.0,0,Yes,Yes,2017-10-18
+EMP00277,Aditya Singh,32,Male,Sales,Executive,Hydrabad,MCA,6.2,1169844.0,1.0,Yes,Hybrid,0.0,0,Yes,No,
+EMP00404,Divya Joshi,44,Other,Finance,Recruiter,Kolkata,M.Tech,12.9,650000.0,2.0,Yes,Onsite,2.0,33,No,No,2024-09-06
+EMP00888,Muskan Gupta,45,Male,Operations,Engineer,Jaipur,B.Sc,6.8,847627.0,3.0,Yes,Onsite,1.0,45,No,No,2022-06-15
+EMP00215,Aarav Sharma,44,Other,HR,Executive,Delhi NCR,Graduate,10.5,650000.0,1.0,Yes,Remote,11.0,69,No,No,2025-12-03
+EMP00108,Isha Kapoor,54,Male,Marketing,Engineer,Mumbai,B.Tech,4.8,880986.0,5.0,,Remote,7.0,111,Yes,No,2023-12-30
+EMP00391,Ananya Sharma,24,Male,Finance,Data Analist,Indore,B.Tech,1.0,790888.0,9.0,Yes,Onsite,6.0,97,No,No,2025-04-13
+EMP00315,Harsh Vardhan,24,Unknown,Legal,Engineer,Bangalore,MBA,5.0,419396.0,2.0,No,Onsite,9.0,41,Yes,No,2015-05-25
+EMP00563,Akash Patel,41,Other,IT,Data Analist,Jaipur,PHD,10.0,823315.0,2.0,Yes,Hybrid,5.0,74,No,No,2016-12-15
+EMP00685,Priya Verma,38,Other,Legal,Engineer,Bangalore,Diploma,4.1,751248.0,3.0,Yes,Onsite,4.0,92,No,No,2020-06-25
+EMP00300,Deepak Verma,54,Male,,Engineer,Bhopal,B.Com,11.1,726578.0,3.0,No,Onsite,7.0,30,No,No,2020-10-23
+EMP00703,Pooja Yadav,50,Other,Customer Support,HR Executive,Delhi NCR,B.Sc,4.3,573393.0,2.0,Yes,Hybrid,6.0,64,Yes,No,2016-03-14
+EMP00346,Arjun Gupta,23,Unknown,Legal,Engineer,Kolkata,M.Com,4.0,750000.0,3.0,Yes,Onsite,12.0,67,Yes,No,2016-05-31
+EMP00347,Sneha Singh,38,Other,HR,Manager,Indore,MBA,0.9,540744.0,2.0,No,Remote,7.0,29,Yes,Yes,2016-04-12
+EMP00454,Nisha Roy,40,Male,Marketing,Data Analist,Pune,Masters,30.0,863515.0,3.0,No,Remote,3.0,40,Yes,Yes,
+EMP00095,Rohan Mehta,35,Male,Customer Support,Data Analist,Indore,B.Sc,5.0,674377.0,2.0,No,Onsite,6.0,60,No,No,2013-07-23
+EMP00788,Komal Sharma,21,Female,Marketing,Engineer,Kolkata,B.Sc,2.0,750000.0,3.0,No,Remote,9.0,18,No,No,2025-04-20
+EMP00641,Deepak Verma,54,Unknown,IT,Data Analist,Delhi NCR,B.Com,3.2,889260.0,4.0,No,Remote,13.0,99,No,No,
+EMP00834,Vivaan Verma,30,Female,Sales,Recruiter,Chennai,Unknown,6.8,1392628.0,4.0,No,Hybrid,9.0,76,No,No,2016-01-17
+EMP00476,Priya Verma,57,Other,Engineering,Data Analist,Chennai,M.Com,9.4,1207880.0,4.0,Yes,Remote,5.0,0,Yes,No,2018-09-18
+EMP00688,Riya Jain,38,Male,Customer Support,HR Executive,Delhi NCR,B.Sc,6.8,443056.0,2.0,Yes,Hybrid,6.0,47,Yes,No,2015-04-09
+EMP00699,Karan Joshi,38,Female,R&D,Engineer,Jaipur,B.Tech,10.8,1338491.0,3.0,Yes,WFH,5.0,42,Yes,No,2025-08-08
+EMP00743,Kavya Gupta,39,Unknown,Finance,Manager,Ahemdabad,MCA,8.9,1019020.0,4.0,Yes,Remote,3.0,39,No,No,
+EMP00852,Komal Sharma,29,Male,IT,Manager,Unknown,MBA,6.8,495258.0,3.0,,Hybrid,2.0,47,Yes,Yes,2017-02-23
+EMP00537,Neha Mehta,54,Other,HR,Executive,Indore,B.Tech,8.2,823315.0,1.0,No,WHF,7.0,43,No,No,2014-01-12
+EMP00635,Amit Kumar,38,Female,Engineering,Engineer,Hydrabad,B.Sc,3.6,150000.0,4.0,No,Hybrid,8.0,61,No,No,2018-07-02
+EMP00407,Rohan-Mehta,47,Male,Legal,Data Analist,Pune,PHD,9.5,1200000.0,4.0,Yes,Hybrid,5.0,43.0,No,No,2017-07-02
+EMP00619,Sakshi Singh,31,Male,Legal,Executive,Jaipur,MCA,6.0,758907.0,4.0,No,WFH,2.0,47,No,No,2019-12-22
+EMP00854,Deepak Verma,31,Male,Engineering,Data Analist,Nagpur,BBA,12.0,1144906.0,4.0,Yes,unknown,7.0,24,Yes,Yes,2014-03-18
+EMP00603,Neha Mehta,24,Female,IT,Manager,Bangalore,MBA,5.0,1121542.0,2.0,Yes,Hybrid,10.0,0,Yes,No,2015-09-02
+EMP00665,Deepak Verma,17,Female,Marketing,Manager,Indore,B.Tech,20.0,10000000.0,4.0,Yes,Hybrid,3.0,68,No,No,2013-06-07
+EMP00404,Divya Joshi,44,Other,Sales,Recruiter,Kolkata,M.Tech,12.9,1389167.0,2.0,Yes,Onsite,2.0,33,No,No,2024-09-06
+EMP00672,Manish Tiwari,46,Female,Finance,Engineer,Bhopal,BBA,8.0,1200000.0,2.0,Yes,Remote,5.0,43.0,Yes,No,2025-05-03
+EMP00082,Siddharth Jain,21,Other,Finance,Business Development Executive,Chennai,PHD,2.0,916499.0,1.0,Yes,Remote,6.0,-5,Yes,Yes,2025-09-28
+EMP00319,Pooja Yadav,57,Unknown,Engineering,Manager,Chennai,B.Com,6.8,440012.0,4.0,Yes,Hybrid,4.0,41,No,Yes,2013-08-21
+EMP00868,Deepak Verma,39,Male,Operations,Manager,Chennai,M.Com,8.3,10000000.0,1.0,No,Hybrid,0.0,57,No,No,2018-08-20
+EMP00573,Karan Joshi,38,Male,Legal,Executive,Pune,Diploma,9.9,892500.0,5.0,No,Onsite,5.0,20,Yes,No,2021-06-16
+EMP00618,Muskan Gupta,27,Other,IT,Executive,Unknown,Unknown,8.0,872836.0,3.0,No,Hybrid,9.0,20,No,No,
+EMP00171,Priya Verma,52,Male,HR,Engineer,Ahemdabad,Graduate,7.9,597162.0,3.0,No,Remote,6.0,65,Yes,No,2015-07-08
+EMP00278,Manish Tiwari,41,Female,Operations,Data Analist,Kolkata,PHD,11.7,823315.0,2.0,,Remote,15.0,31,Yes,No,2016-08-27
+EMP00577,Harsh Vardhan,29,Male,Operations,Engineer,Mumbai,B.Sc,3.2,671661.0,3.0,Yes,Remote,9.0,28,Yes,No,2024-09-09
+EMP00551,Komal-Sharma,17,Other,Unknown,Manager,Chennai,B.Tech,3.4,227497.0,3.0,No,Onsite,5.0,60,No,No,
+EMP00374,Komal Sharma,39,Female,Legal,Data Analist,Jaipur,B.Tech,5.9,1192192.0,2.0,No,Hybrid,4.0,34,Yes,No,
+EMP00787,Meera Nair,55,Female,IT,Engineer,Ahemdabad,MCA,10.8,650000.0,5.0,No,,7.0,40,No,No,2022-09-09
+EMP00587,Aditya Singh,50,Other,Marketing,Manager,Pune,B.Com,0.0,756232.0,3.0,No,Onsite,6.0,40,Yes,No,2015-07-05
+EMP00638,Ritesh Kumar,39,Unknown,IT,Engineer,Unknown,MBA,4.1,1001902.0,4.0,Yes,Remote,14.0,0,Yes,No,2015-07-20
+EMP00249,Meera Nair,53,Other,R&D,Executive,Mumbai,B.Tech,5.7,823315.0,2.0,Yes,Hybrid,5.0,84,No,Yes,2016-12-20
+EMP00402,Priya Verma,33,Unknown,IT,Data Analist,Kolkata,B.E.,3.0,1200000.0,3.0,No,Remote,13.0,48,No,No,
+EMP00559,Isha Kapoor,22,Other,Finance,Manager,Pune,Diploma,3.5,635525.0,3.0,No,Onsite,1.0,57,No,No,2013-08-27
+EMP00494,Amit Kumar,45,Unknown,Engineering,Executive,Bangalore,B.E.,10.2,1177343.0,2.0,Yes,Hybrid,2.0,20,Yes,No,2021-03-05
+EMP00005,Amit  Kumar,51,Female,Marketing,,Kolkata,B.Com,0.0,470988.0,1.0,No,Remote,6.0,32,Yes,No,2023-04-22
+EMP00675,Rohan Mehta,35,Other,Marketing,Quality Assurance,Bangalore,Diploma,9.6,591942.0,1.0,No,Remote,0.0,84,Yes,Yes,2018-04-15
+EMP00601,Manish Tiwari,38,Other,HR,Executive,Kolkata,B.E.,12.3,943197.0,5.0,,Onsite,0.0,6,No,No,2018-10-29
+EMP00565,Deepak-Verma,54,Male,Customer Support,Quality Assurance,Indore,MCA,10.6,884822.0,3.0,No,Hybrid,9.0,61,No,Yes,2014-08-17
+EMP00489,Ananya Sharma,36,Female,Customer Support,Executive,Unknown,B.Sc,8.4,1017135.0,10.0,No,Onsite,5.0,67,No,No,2024-12-04
+EMP00512,Sanjay Mishra,38,Male,Operations,HR Executive,Pune,B.Sc,14.0,823315.0,9.0,No,Hybrid,5.0,45,No,No,2025-02-26
+EMP00755,Sneha-Singh,38,Male,Sales,Data Analist,Jaipur,PHD,16.6,823315.0,3.0,No,Remote,11.0,95,Yes,No,2020-11-28
+EMP00545,Tanya Kapoor,32,Male,Legal,Manager,Chennai,B.Com,8.2,919056.0,2.0,,Hybrid,0.0,40,No,No,2013-03-24
+EMP00623,Komal Sharma,44,Female,Finance,Executive,Nagpur,M.Tech,1.6,655932.0,3.0,Yes,Onsite,7.0,2,No,No,2023-05-30
+EMP00822,Sakshi Singh,58,Other,Customer Support,Executive,Nagpur,B.Com,7.8,877446.0,2.0,Yes,Hybrid,1.0,29,No,Yes,2021-10-06
+EMP00220,Nisha Roy,38,Male,R&D,Data Analist,Pune,B.Sc,8.0,1285325.0,5.0,No,Remote,0.0,43.0,Yes,No,
+EMP00138,Sneha Singh,47,Unknown,Operations,Manager,Ahemdabad,B.Tech,13.1,823315.0,5.0,No,Hybrid,5.0,55,Yes,No,2016-04-03
+EMP00590,Nisha Roy,59,Female,R&D,Manager,Hydrabad,B.Com,4.2,600000.0,3.0,Yes,Remote,3.0,74,No,Yes,2025-07-12
+EMP00047,Priya-Verma,32,Female,Sales,Data Analist,Mumbai,PHD,13.0,1565026.0,5.0,No,Office,7.0,56,No,No,2020-01-28
+EMP00786,Sakshi Singh,35,Other,R&D,Manager,Chennai,B.E.,13.7,1330473.0,2.0,Yes,Remote,0.0,32,Yes,No,2017-07-24
+EMP00498,Aditya Singh,47,Other,R&D,Manager,Bhopal,BBA,0.0,150000.0,3.0,No,Remote,11.0,40,Yes,No,
+EMP00351,Neha Mehta,36,Other,IT,Engineer,Bangalore,PHD,7.5,1189013.0,2.0,,Hybrid,7.0,43.0,No,No,2020-01-10
+EMP00556,Sneha Singh,40,Other,Customer Support,Executive,Delhi NCR,M.Com,8.3,823315.0,0.0,No,,0.0,34,No,Yes,2015-12-06
+EMP00395,Rohan Mehta,38,Male,,Manager,Hydrabad,B.Sc,5.0,450000.0,5.0,No,Hybrid,7.0,71,No,No,2024-06-12
+EMP00437,Divya Joshi,30,Other,Marketing,Manager,Bhopal,B.E.,9.0,960480.0,3.0,No,unknown,14.0,71,No,No,2023-05-21
+EMP00566,Amit Kumar,48,Female,Sales,Executive,Mumbai,M.Tech,6.8,604514.0,2.0,Yes,Remote,11.0,37,No,No,2026-02-12
+EMP00465,Sakshi Singh,47,Other,Engineering,Unknown,Bangalore,PHD,5.0,1401478.0,3.0,No,Onsite,5.0,52,Yes,No,2023-05-17
+EMP00456,Amit Kumar,30,Male,Marketing,Engineer,Pune,MCA,9.1,1066284.0,2.0,No,Remote,0.0,75,Yes,No,2026-01-28
+EMP00342,Akash Patel,34,Other,Sales,Recruiter,Kolkata,B.E.,5.6,1056296.0,1.0,Yes,Onsite,0.0,36,No,No,2022-10-17
+EMP00181,Meera Nair,29,Female,Engineering,Manager,Delhi NCR,B.Tech,1.9,150000.0,2.0,No,Hybrid,5.0,102,No,No,2014-11-30
+EMP00517,Amit Kumar,21,Female,Marketing,Data Analist,Pune,PHD,0.0,310737.0,4.0,Yes,Onsite,20.0,45,Yes,No,2024-02-20
+EMP00353,Kavya Gupta,38,Other,IT,,Bhopal,B.E.,6.8,823315.0,4.0,No,Hybrid,3.0,0,Yes,Yes,
+EMP00849,Arjun Gupta,44,Other,Operations,Manager,Unknown,B.Com,30.0,823315.0,4.0,No,Remote,9.0,66,No,No,2020-01-14
+EMP00327,Rahul Patel,58,Female,Marketing,Data Analist,Mumbai,MCA,4.5,703281.0,1.0,Yes,Remote,8.0,45,No,No,2019-11-26
+EMP00066,Rahul Patel,56,Other,IT,Engineer,Kolkata,MBA,14.0,1434529.0,2.0,Yes,Hybrid,12.0,66,Yes,No,2017-10-28
+EMP00170,Sakshi Singh,27,Female,Operations,Manager,Nagpur,M.Com,7.1,631914.0,1.0,No,Remote,0.0,41,Yes,No,2025-05-23
+EMP00770,Ananya Sharma,56,Female,HR,Sales Executive,Delhi NCR,MBA,11.1,10000000.0,2.0,No,Hybrid,1.0,80,No,No,2026-06-16
+EMP00736,Riya Jain,53,Unknown,Engineering,Manager,Hydrabad,Diploma,8.4,750000.0,3.0,No,Hybrid,4.0,33,No,No,2013-08-01
+EMP00010,Vivaan Verma,30,Male,Engineering,Executive,Indore,BBA,7.4,1072847.0,5.0,Yes,Onsite,5.5,36,No,No,2018-05-15
+EMP00784,Siddharth Jain,21,Female,IT,Engineer,Pune,B.Tech,2.0,823315.0,4.0,Yes,Remote,3.0,83,No,No,2021-12-17
+EMP00539,Isha Kapoor,32,Male,Finance,Engineer,Hydrabad,MCA,7.2,823315.0,5.0,unknown,Remote,3.0,0,No,No,2023-04-18
+EMP00179,Muskan Gupta,59,Male,Marketing,Manager,Ahemdabad,MBA,5.1,792656.0,3.0,Yes,Hybrid,20.0,76,Yes,No,2013-06-30
+EMP00659,Sneha Singh,57,Male,HR,Engineer,Bangalore,Diploma,5.9,840787.0,5.0,,Onsite,7.0,39,Yes,No,
+EMP00164,Sanjay Mishra,37,Other,Legal,Recruiter,Bangalore,BBA,5.0,747588.0,3.0,No,Onsite,5.0,43,Yes,Yes,2016-10-09
+EMP00226,Arjun Gupta,60,Female,,Engineer,Bangalore,B.Com,11.7,500000.0,2.0,No,Hybrid,5.0,40,Yes,No,2017-01-04
+EMP00532,Isha-Kapoor,25,Male,R&D,Data Analist,Ahemdabad,Unknown,8.0,895528.0,3.0,Yes,Office,2.0,13,Yes,No,2026-02-05
+EMP00218,Neha Mehta,38,Other,Customer Support,Engineer,Nagpur,B.Tech,6.0,1181087.0,1.0,Yes,WFH,3.0,60,No,No,2022-10-04
+EMP00785,Komal Sharma,29,Male,Operations,Executive,Kolkata,B.E.,4.0,962626.0,2.0,Yes,Hybrid,1.0,40,Yes,No,2016-05-23
+EMP00592,Vivaan Verma,54,Female,R&D,Data Analist,Unknown,BBA,16.7,823315.0,5.0,Yes,Hybrid,15.0,0,No,No,2024-08-19
+EMP00847,Priya Verma,23,Female,Sales,Manager,Mumbai,MCA,5.0,796741.0,5.0,Yes,Hybrid,0.0,49,Yes,No,2018-06-27
+EMP00853,Divya Joshi,21,Other,Finance,Executive,Indore,B.Tech,2.0,740597.0,3.0,No,Remote,15.0,81,No,No,2015-02-19
+EMP00662,Neha Mehta,26,Female,Engineering,Engineer,Pune,B.Sc,7.0,670424.0,3.0,Yes,Hybrid,2.0,20,Yes,No,2018-04-07
+EMP00094,Neha Mehta,33,Other,Legal,Data Analist,Delhi NCR,PHD,12.3,1211724.0,5.0,No,Remote,6.0,23,No,Yes,
+EMP00309,Siddharth Jain,24,Other,IT,Manager,Ahemdabad,B.Tech,5.0,545914.0,1.0,Yes,Remote,5.5,6,Yes,Yes,2015-04-09
+EMP00087,Vivaan Verma,26,Male,IT,Data Analist,Jaipur,Unknown,7.0,823315.0,1.0,No,Onsite,2.0,40,Yes,No,2020-07-29
+EMP00547,Vivaan Verma,38,Other,IT,Data Analist,Jaipur,Unknown,6.8,1378244.0,5.0,No,Remote,8.0,0,Yes,No,2022-03-28
+EMP00804,Deepak Verma,60,Female,Customer Support,Engineer,Nagpur,B.E.,10.0,1229461.0,2.0,Yes,Hybrid,5.0,97,No,No,2019-08-13
+EMP00246,Tanya Kapoor,46,Other,Finance,Business Development Executive,Mumbai,M.Com,6.2,500000.0,2.0,Yes,Hybrid,2.0,62,Yes,No,2018-06-15
+EMP00805,Arjun Gupta,33,Male,Engineering,Executive,Chennai,MBA,11.1,10000000.0,3.0,No,Onsite,3.0,0,Yes,No,2026-03-06
+EMP00900,Kavya Gupta,17,Female,Finance,Data Analist,Ahemdabad,MCA,0.0,285175.0,5.0,No,WFH,5.0,58,No,No,2014-06-22
+EMP00663,Arjun Gupta,38,Other,R&D,Executive,Chennai,B.E.,5.5,892606.0,6.0,Yes,Onsite,5.0,12,Yes,No,2021-12-13
+EMP00143,Priya Verma,53,Male,Customer Support,Data Analist,Jaipur,M.Com,7.4,954962.0,4.0,Yes,Onsite,0.0,39,No,No,2014-09-14
+EMP00396,Komal  Sharma,48,Other,Customer Support,Data Analist,Delhi NCR,B.Com,12.3,10000000.0,1.0,Yes,Remote,14.0,58,Yes,No,2022-08-29
+EMP00296,Pooja Yadav,50,Female,Customer Support,Manager,Bangalore,BBA,10.5,750000.0,6.0,Yes,Remote,0.0,38,No,No,2021-04-23
+EMP00377,Muskan Gupta,49,Male,IT,Manager,Unknown,MBA,4.0,500000.0,2.0,,Onsite,9.0,51,No,No,2022-03-23
+EMP00820,Deepak Verma,26,Female,R&D,Engineer,Ahemdabad,B.Sc,7.0,776927.0,4.0,No,Onsite,5.0,40,No,No,2018-11-02
+EMP00513,Amit Kumar,22,Other,Marketing,Manager,Mumbai,B.E.,6.8,558830.0,3.0,No,Remote,3.0,43.0,Yes,No,2015-03-19
+EMP00336,Tanya Kapoor,45,Female,Finance,Data Analist,Pune,B.E.,2.5,715235.0,4.0,,Onsite,5.0,11,Yes,No,2015-09-11
+EMP00857,Deepak Verma,30,Other,Engineering,Manager,Mumbai,B.Com,11.0,1829538.0,5.0,No,Remote,11.0,43.0,No,Yes,2015-12-16
+EMP00457,Tanya Kapoor,36,Other,Finance,Manager,Indore,B.E.,6.8,750000.0,4.0,No,Hybrid,2.0,75,No,No,2021-12-07
+EMP00687,Deepak Verma,60,Male,IT,Executive,Nagpur,B.E.,4.8,940148.0,5.0,Yes,Onsite,15.0,32,No,No,
+EMP00177,Tanya Kapoor,38,Male,HR,Data Analist,Ahemdabad,Unknown,4.7,500000.0,1.0,No,Onsite,3.0,88,Yes,Yes,2018-04-12
+EMP00302,Arjun Gupta,26,Male,Legal,Data Analist,Bangalore,B.Sc,30.0,454331.0,5.0,Yes,Onsite,5.0,34,No,Yes,2024-11-23
+EMP00735,Isha Kapoor,40,Female,HR,Data Analist,Jaipur,B.Sc,6.6,1185385.0,5.0,Yes,Remote,3.0,81,No,Yes,2023-03-18
+EMP00753,Divya Joshi,22,Male,Sales,Manager,Bangalore,B.E.,6.8,450000.0,2.0,No,Onsite,8.0,44,Yes,No,2026-02-15
+EMP00885,Arjun Gupta,24,Female,Legal,Engineer,Indore,PHD,2.9,972910.0,4.0,No,Hybrid,8.0,43.0,No,No,2014-10-08
+EMP00668,Rohan Mehta,51,Male,Sales,Engineer,Ahemdabad,BBA,13.2,1266791.0,3.0,Yes,WHF,6.0,43.0,Yes,No,2024-08-31
+EMP00832,Sanjay Mishra,52,Female,Operations,Manager,Bangalore,B.E.,5.8,1167703.0,6.0,Yes,WFH,4.0,50,Yes,No,2024-07-21
+EMP00451,Sneha Singh,21,Other,Finance,Executive,Mumbai,M.Com,6.8,823315.0,2.0,No,Onsite,8.0,18,No,Yes,2026-03-16
+EMP00186,Tanya Kapoor,57,Male,Engineering,Manager,Indore,M.Com,16.6,1588336.0,4.0,No,Remote,5.0,19,Yes,Yes,2017-11-09
+EMP00750,Neha Mehta,47,Other,IT,Executive,Pune,MCA,4.5,728763.0,4.0,Yes,Remote,7.0,23,Yes,Yes,2017-01-09
+EMP00460,Manish Tiwari,28,Other,Finance,Data Analist,Kolkata,M.Com,9.0,915859.0,5.0,No,Remote,6.0,104,No,No,2013-10-01
+EMP00472,Rohan Mehta,51,Female,Legal,Data Analist,Jaipur,Diploma,4.4,666478.0,5.0,No,Onsite,3.0,40,No,Yes,2019-05-26
+EMP00341,Meera Nair,38,Female,R&D,Engineer,Pune,B.Com,5.1,802710.0,5.0,Yes,Remote,5.0,61,Yes,No,2020-08-12
+EMP00069,Sneha Singh,58,Other,IT,Engineer,Pune,M.Tech,6.8,1298423.0,2.0,Yes,Onsite,8.0,43.0,No,Yes,2025-11-19
+EMP00343,Tanya Kapoor,54,Male,Marketing,Data Analist,Pune,MCA,8.5,461132.0,10.0,Yes,Remote,8.0,20,Yes,No,2022-01-11
+EMP00105,Muskan Gupta,55,Male,Engineering,Manager,Ahemdabad,B.Sc,3.4,214057.0,3.0,Yes,Remote,0.0,61,Yes,No,
+EMP00522,Akash Patel,35,Unknown,HR,Sales Executive,Ahemdabad,MCA,3.4,607232.0,4.0,Yes,Remote,8.0,45,Yes,No,2020-10-11
+EMP00886,Aditya Singh,52,Other,Sales,Manager,Nagpur,MCA,14.4,823315.0,5.0,No,Remote,6.0,0,Yes,Yes,2017-05-22
+EMP00882,Kavya Gupta,45,Other,Marketing,Executive,Ahemdabad,MBA,5.7,932988.0,2.0,No,WFH,6.0,74,Yes,No,2014-02-15
+EMP00167,Ananya Sharma,50,Female,IT,HR Executive,Jaipur,Diploma,18.1,1466803.0,2.0,No,Hybrid,4.0,33,Yes,No,2013-11-24
+EMP00660,Neha Mehta,58,Female,Marketing,Engineer,Nagpur,B.Com,10.0,1597977.0,3.0,unknown,Remote,5.0,16,Yes,No,2017-10-16
+EMP00866,Ritesh Kumar,42,Other,IT,Engineer,Chennai,M.Tech,5.7,450000.0,2.0,Yes,Hybrid,5.0,94,No,Yes,2014-02-05
+EMP00014,Sanjay Mishra,38,Other,Operations,Executive,Kolkata,M.Com,5.0,401329.0,3.0,Yes,Hybrid,2.0,74,No,No,2017-12-13
+EMP00815,Siddharth Jain,24,Male,Legal,Data Analist,Mumbai,Diploma,5.0,823315.0,2.0,Yes,Remote,6.0,84,Yes,Yes,2023-12-02
+EMP00633,Meera Nair,56,Female,R&D,Unknown,Delhi NCR,BBA,10.1,1475595.0,2.0,No,unknown,5.0,44,No,No,2016-11-19
+EMP00841,Vivaan Verma,38,Male,HR,Manager,Pune,BBA,30.0,247574.0,5.0,Yes,Onsite,4.0,95,Yes,No,2025-06-18
+EMP00224,Meera Nair,52,Male,IT,Data Analist,Bhopal,B.Tech,3.0,636094.0,2.0,Yes,Remote,8.0,0,No,No,
+EMP00799,Ananya Sharma,27,Other,Customer Support,,Bangalore,B.Tech,5.2,980382.0,2.0,No,Onsite,5.0,37,Yes,Yes,2018-08-05
+EMP00239,Siddharth Jain,50,Other,Customer Support,Engineer,Chennai,BBA,6.8,691527.0,4.0,No,Onsite,2.0,97,No,No,2020-09-15
+EMP00756,Rohan Mehta,38,Other,Engineering,Engineer,Ahemdabad,B.E.,5.9,1125114.0,5.0,No,Hybrid,1.0,42,No,Yes,2022-01-21
+EMP00549,Aditya Singh,38,Male,Engineering,Data Analist,Pune,BBA,7.5,1396117.0,2.0,Yes,Hybrid,3.0,45,Yes,Yes,2020-09-29
+EMP00229,Nisha Roy,54,Other,HR,Executive,Jaipur,Diploma,0.0,807872.0,1.0,Yes,Onsite,5.0,92,No,No,2017-06-25
+EMP00581,Manish Tiwari,29,Female,HR,Executive,Chennai,B.E.,8.7,1660748.0,4.0,Yes,Hybrid,4.0,43.0,Yes,No,2023-11-23
+EMP00268,Komal Sharma,38,Male,Engineering,Executive,Kolkata,B.Tech,4.9,876662.0,4.0,No,Hybrid,3.0,43,Yes,No,
+EMP00445,Akash Patel,30,Male,,Executive,Jaipur,M.Tech,6.8,1661537.0,4.0,Yes,Remote,11.0,88,No,Yes,2026-02-16
+EMP00794,Aarav Sharma,30,Male,Customer Support,Data Analist,Hydrabad,M.Com,11.0,1333443.0,4.0,No,WFH,8.0,31,No,No,
+EMP00631,Rahul Patel,39,Unknown,R&D,Engineer,Unknown,MBA,3.8,713180.0,1.0,No,Hybrid,4.0,84,No,No,2015-04-16
+EMP00130,Nisha Roy,38,Male,Sales,Engineer,Bhopal,B.Tech,2.8,599472.0,2.0,No,Remote,0.0,66,Yes,No,
+EMP00826,Amit Kumar,54,Male,HR,Engineer,Ahemdabad,B.Com,7.7,693878.0,5.0,No,Remote,8.0,68,Yes,No,2021-01-26
+EMP00595,Kavya Gupta,39,Male,R&D,Executive,Indore,B.Tech,11.9,1570604.0,2.0,No,Onsite,8.0,15,No,Yes,2020-10-22
+EMP00692,Meera Nair,59,Male,HR,,Delhi NCR,MBA,17.4,1135850.0,5.0,No,Onsite,5.0,91,Yes,No,2018-03-08
+EMP00398,Komal Sharma,49,Other,Customer Support,Data Analist,Indore,MBA,4.2,958710.0,4.0,No,Hybrid,7.0,35,No,Yes,2021-07-15
+EMP00867,Rohan Mehta,43,Female,IT,Executive,Indore,MBA,6.8,650000.0,3.0,Yes,Remote,7.0,88,No,No,
+EMP00463,Komal Sharma,34,Female,Sales,Manager,Ahemdabad,Diploma,1.5,150000.0,2.0,,Onsite,0.0,44,Yes,No,2016-03-19
+EMP00558,Harsh Vardhan,41,Other,IT,Executive,Indore,MBA,9.7,1298116.0,3.0,Yes,Remote,20.0,66,Yes,No,2015-09-05
+EMP00871,Sanjay Mishra,46,Other,Legal,Data Analist,Hydrabad,B.Sc,6.3,829410.0,2.0,No,WHF,7.0,0,No,No,2018-02-05
+EMP00298,Rahul Patel,32,Male,Legal,Data Analist,Mumbai,B.E.,7.1,619112.0,3.0,No,Onsite,5.0,0,No,No,2025-05-25
+EMP00408,Rahul Patel,55,Female,R&D,Executive,Delhi NCR,B.Com,9.7,1016555.0,3.0,No,unknown,5.0,31,Yes,No,2014-03-30
+EMP00242,Ritesh Kumar,57,Other,IT,Recruiter,Unknown,B.E.,1.7,500000.0,5.0,No,Onsite,5.0,30,No,No,2015-10-12
+EMP00694,Akash-Patel,56,Female,IT,Engineer,Hydrabad,PHD,6.4,823315.0,4.0,No,Hybrid,20.0,100,No,Yes,
+EMP00705,Sakshi Singh,41,Female,Legal,Executive,Bangalore,M.Tech,6.8,605003.0,2.0,No,Remote,15.0,0,No,No,2020-07-18
+EMP00737,Manish Tiwari,45,Female,Marketing,Engineer,Kolkata,B.Sc,3.5,510549.0,1.0,No,Hybrid,5.0,74,Yes,No,2017-12-30
+EMP00477,Rohan Mehta,31,Male,IT,Data Analist,Delhi NCR,B.Tech,3.8,828449.0,3.0,No,Remote,0.0,47,No,No,2023-07-05
+EMP00666,Isha Kapoor,47,Female,Finance,Data Analist,Indore,B.Tech,8.6,1369819.0,4.0,No,Hybrid,3.0,23,Yes,Yes,2017-08-21
+EMP00897,Sneha Singh,57,Female,R&D,Engineer,Kolkata,MCA,10.5,1090594.0,4.0,Yes,Remote,7.0,74,No,No,2025-06-24
+EMP00700,Vivaan Verma,46,Female,HR,Data Analist,Kolkata,Graduate,0.5,589296.0,5.0,Yes,Hybrid,10.0,43.0,No,Yes,2026-08-07
+EMP00455,Rahul Patel,47,Other,Marketing,Quality Assurance,Nagpur,PHD,14.5,1512097.0,1.0,No,Remote,11.0,15,No,No,2025-07-17
+EMP00435,Kavya Gupta,51,Female,Finance,Data Analist,Ahemdabad,B.Com,3.6,649536.0,2.0,No,Remote,4.0,30,Yes,No,2017-10-06
+EMP00606,Meera Nair,56,Unknown,Engineering,Data Analist,Mumbai,M.Tech,0.0,150000.0,1.0,Yes,Onsite,10.0,0,No,No,2021-06-13
+EMP00636,Nisha Roy,60,Female,Engineering,Executive,Mumbai,Graduate,4.1,527723.0,2.0,Yes,Remote,8.0,1,Yes,No,2017-10-28
+EMP00680,Nisha Roy,30,Male,Marketing,Manager,Indore,B.Tech,10.0,1427333.0,3.0,,Remote,7.0,40,No,Yes,2018-05-10
+EMP00572,Aditya Singh,54,Female,R&D,Manager,Bangalore,B.Tech,6.8,860335.0,1.0,No,Remote,3.0,27,Yes,No,2014-02-10
+EMP00049,Aarav Sharma,25,Female,Finance,Data Analist,Bangalore,B.E.,1.7,328711.0,1.0,No,Onsite,2.0,45,Yes,No,2014-12-22
+EMP00744,Rahul Patel,38,Male,Engineering,Engineer,Indore,B.Tech,0.0,557566.0,1.0,Yes,Onsite,7.0,54,No,No,2013-07-20
+EMP00417,Rohan Mehta,25,Female,Sales,Executive,Nagpur,B.E.,7.9,607067.0,4.0,Yes,Hybrid,2.0,12,No,No,2020-09-30
+EMP00394,Ananya Sharma,28,Male,HR,Engineer,Jaipur,MCA,6.8,725405.0,2.0,No,Remote,9.0,69,No,No,2022-12-09
+EMP00203,Komal  Sharma,52,Male,IT,Executive,Kolkata,B.Tech,6.8,1055747.0,2.0,Yes,WHF,6.0,40,No,No,2024-01-10
+EMP00564,Amit Kumar,26,Other,Operations,Engineer,Hydrabad,M.Com,30.0,668411.0,2.0,No,Hybrid,2.0,19,No,No,2023-03-06
+EMP00118,Aditya Singh,25,Other,Sales,Manager,Delhi NCR,M.Tech,8.4,1102027.0,2.0,Yes,Remote,5.0,43.0,No,Yes,
+EMP00447,Deepak Verma,30,Male,HR,Data Analist,Hydrabad,M.Com,9.4,893905.0,4.0,Yes,Onsite,0.0,40,No,No,2013-01-21
+EMP00317,Komal Sharma,24,Female,Marketing,Data Analist,Bangalore,Graduate,6.8,911841.0,3.0,No,Hybrid,5.0,45,No,No,
+EMP00320,Nisha Roy,38,Other,IT,Executive,Bhopal,Diploma,0.0,241147.0,2.0,No,Onsite,8.0,106,Yes,No,
+EMP00379,Akash Patel,54,Female,Finance,Executive,Unknown,Masters,5.3,600000.0,2.0,Yes,Hybrid,0.0,105,Yes,No,2014-04-18
+EMP00021,Pooja Yadav,37,Male,Marketing,,Indore,BBA,10.7,1585769.0,4.0,No,Onsite,5.0,43.0,No,No,2015-09-27
+EMP00470,Rahul Patel,17,Other,Sales,,Nagpur,B.E.,5.0,544322.0,2.0,Yes,unknown,5.0,63,Yes,No,2020-05-27
+EMP00267,Muskan Gupta,44,Unknown,Engineering,Manager,Delhi NCR,B.Tech,3.0,824734.0,4.0,Yes,Hybrid,6.0,73,No,No,2017-12-11
+EMP00576,Isha Kapoor,21,Male,Finance,Data Analist,Hydrabad,MCA,6.8,546574.0,6.0,No,Onsite,7.0,20,Yes,No,2019-09-13
+EMP00837,Akash Patel,59,Male,Sales,Data Analist,Unknown,PHD,8.3,500000.0,3.0,No,Remote,11.0,0,Yes,No,2020-01-27
+EMP00098,Ananya Sharma,33,Other,Operations,Executive,Hydrabad,MCA,6.7,698975.0,1.0,No,Remote,7.0,20,Yes,No,2021-08-25
+EMP00090,Nisha Roy,46,Female,Sales,Data Analist,Ahemdabad,B.Tech,7.6,1276781.0,5.0,Yes,Hybrid,0.0,60,No,No,2014-03-19
+EMP00172,Sneha Singh,43,Other,IT,Manager,Delhi NCR,Unknown,9.4,823315.0,1.0,Yes,Remote,0.0,61,No,Yes,
+EMP00471,Neha Mehta,39,Unknown,Legal,Data Analist,Indore,MCA,6.8,1200000.0,2.0,No,Office,1.0,34,Yes,No,2024-03-24
+EMP00474,Manish Tiwari,58,Other,Unknown,Business Development Executive,Indore,Unknown,3.1,852676.0,5.0,No,Hybrid,10.0,15,Yes,No,2026-04-27
+EMP00273,Sneha Singh,51,Male,Operations,,Nagpur,M.Com,10.6,982235.0,4.0,No,unknown,11.0,49,Yes,Yes,2022-12-17
+EMP00329,Sneha Singh,57,Female,Sales,Executive,Delhi NCR,B.Com,16.0,1819128.0,3.0,No,Remote,5.0,44,No,No,2019-02-13
+EMP00621,Nisha Roy,26,Other,Customer Support,Data Analist,Mumbai,M.Com,7.0,1093073.0,2.0,No,Remote,5.0,64,No,No,2019-06-16
+EMP00033,Deepak Verma,38,Male,Finance,Manager,Hydrabad,BBA,7.5,1042968.0,3.0,No,Remote,1.0,44,Yes,No,
+EMP00637,Divya  Joshi,53,Female,Legal,Executive,Pune,B.E.,30.0,830890.0,3.0,No,Remote,3.0,44,Yes,No,2018-09-04
+EMP00503,Divya Joshi,42,Unknown,Finance,Engineer,Jaipur,B.Tech,12.9,1386141.0,4.0,No,Remote,0.0,25,Yes,No,2019-11-27
+EMP00183,Divya Joshi,34,Unknown,Sales,Executive,Delhi NCR,B.Com,7.5,570479.0,3.0,No,Hybrid,11.0,0,Yes,No,2017-02-16
+EMP00769,Akash Patel,25,Other,R&D,,Bhopal,BBA,6.0,731417.0,4.0,Yes,Hybrid,10.0,40,No,No,
+EMP00099,Amit Kumar,28,Female,Marketing,Engineer,Mumbai,B.Tech,9.0,1149956.0,2.0,Yes,Onsite,6.0,200,Yes,Yes,2022-05-13
+EMP00509,Riya Jain,21,Male,Sales,Data Analist,Bhopal,PHD,2.0,823315.0,5.0,Yes,WFH,0.0,51,No,No,2020-02-03
+EMP00023,Sanjay Mishra,31,Male,Marketing,Executive,Delhi NCR,MBA,0.2,528316.0,1.0,No,Hybrid,0.0,88,Yes,No,2026-06-20
+EMP00605,Akash Patel,60,Male,Finance,Executive,Indore,PHD,11.0,1275289.0,1.0,No,Onsite,3.0,19,Yes,No,2019-07-15
+EMP00039,Neha-Mehta,53,Other,Legal,Executive,Pune,B.Sc,17.7,1756417.0,3.0,No,Hybrid,9.0,43.0,Yes,No,2020-08-16
+EMP00645,Harsh Vardhan,23,Other,Legal,Executive,Jaipur,B.Tech,4.0,1006459.0,9.0,Yes,Onsite,1.0,40,Yes,No,2021-12-03
+EMP00096,Isha Kapoor,59,Unknown,HR,Engineer,Ahemdabad,Graduate,15.9,1231422.0,1.0,No,Hybrid,15.0,40,Yes,No,2019-10-20
+EMP00354,Arjun  Gupta,38,Male,R&D,Executive,Delhi NCR,B.Tech,0.0,437526.0,5.0,,Hybrid,1.0,-5,No,No,2024-01-25
+EMP00548,Muskan Gupta,45,Male,Engineering,Recruiter,Bhopal,PHD,3.6,335404.0,0.0,,Hybrid,0.0,59,No,No,2017-05-30
+EMP00265,Vivaan Verma,38,Male,Sales,Manager,Ahemdabad,B.Com,4.8,1103682.0,2.0,Yes,Hybrid,0.0,1,No,No,2025-11-12
+EMP00340,Nisha Roy,38,Male,Legal,Engineer,Indore,PHD,13.6,823315.0,5.0,No,Onsite,5.0,93,Yes,No,2021-05-31
+EMP00420,Neha Mehta,27,Male,Unknown,Engineer,Mumbai,BBA,6.8,10000000.0,3.0,,Remote,5.0,40,No,No,2023-08-04
+EMP00086,Manish Tiwari,38,Female,Operations,Executive,Pune,B.Sc,5.0,1019593.0,2.0,Yes,Remote,7.0,20,No,No,2019-01-13
+EMP00370,Divya Joshi,38,Male,Unknown,Engineer,Indore,MBA,5.7,823315.0,2.0,No,Remote,7.0,40,Yes,No,2013-08-31
+EMP00727,Pooja Yadav,52,Other,Sales,Engineer,Jaipur,BBA,19.4,823315.0,5.0,No,Remote,4.0,32,No,No,2023-04-23
+EMP00270,Sakshi Singh,41,Male,Engineering,Engineer,Mumbai,M.Tech,3.3,915779.0,2.0,Yes,Remote,6.0,25,No,No,2013-03-15
+EMP00419,Ritesh Kumar,26,Unknown,Sales,Executive,Chennai,B.Tech,7.0,900487.0,3.0,sometimes,Remote,4.0,104,No,No,2022-08-28
+EMP00402,Priya Verma,33,Unknown,Legal,Data Analist,Kolkata,B.E.,3.0,423822.0,3.0,No,Remote,13.0,48,No,No,
+EMP00734,Pooja Yadav,58,Male,Marketing,Engineer,Ahemdabad,MCA,5.3,150000.0,4.0,No,Hybrid,1.0,57,Yes,Yes,2019-03-07
+EMP00230,Neha Mehta,38,Male,Sales,Recruiter,Ahemdabad,PHD,5.2,450000.0,3.0,No,Onsite,12.0,63,No,No,2013-01-01
+EMP00034,Manish Tiwari,27,Female,Operations,Executive,Pune,M.Com,8.0,955453.0,1.0,Yes,Hybrid,6.0,23,No,Yes,
+EMP00790,Pooja-Yadav,40,Unknown,IT,Executive,Unknown,B.E.,10.3,823315.0,4.0,Yes,Remote,14.0,0,No,No,2020-09-19
+EMP00708,Ritesh Kumar,55,Male,Engineering,Data Analist,Nagpur,PHD,5.6,823315.0,3.0,Yes,Onsite,5.0,78,Yes,No,2022-03-05
+EMP00433,Aarav Sharma,28,Male,Legal,Engineer,Bhopal,B.E.,8.5,745241.0,3.0,Yes,Onsite,0.0,106,No,No,2020-04-26
+EMP00586,Karan Joshi,45,Unknown,HR,Engineer,Delhi NCR,B.Com,3.5,500000.0,5.0,Yes,Remote,5.0,0,Yes,No,2017-07-09
+EMP00365,Sanjay  Mishra,33,Female,Sales,Manager,Indore,Diploma,12.9,1475353.0,1.0,Yes,Onsite,5.0,61,No,No,2026-03-24
+EMP00360,Arjun Gupta,48,Female,Sales,Manager,Bangalore,M.Tech,7.9,600000.0,3.0,Yes,Hybrid,12.0,5,Yes,No,2014-11-20
+EMP00271,Harsh Vardhan,33,Male,IT,Manager,Hydrabad,M.Com,6.4,823315.0,5.0,Yes,Onsite,8.0,47,Yes,No,2019-11-08
+EMP00852,Komal Sharma,29,Male,HR,Manager,Unknown,MBA,6.8,500000.0,3.0,,Hybrid,2.0,47,Yes,Yes,2017-02-23
+EMP00070,Karan Joshi,51,Male,Customer Support,Data Analist,Pune,BBA,3.5,600000.0,3.0,No,Hybrid,5.5,0,Yes,No,2021-08-19
+EMP00602,Pooja Yadav,51,Male,R&D,Manager,Mumbai,B.Sc,5.0,1012001.0,4.0,Yes,Hybrid,3.0,0,Yes,No,2016-01-19
+EMP00515,Pooja Yadav,35,Other,Finance,Manager,Chennai,BBA,12.0,996118.0,3.0,Yes,Hybrid,0.0,27,Yes,No,2017-11-26
+EMP00020,Tanya Kapoor,38,Male,R&D,Engineer,Hydrabad,B.Tech,8.2,921516.0,4.0,No,Hybrid,4.0,17,Yes,No,2018-06-21
+EMP00580,Rahul Patel,42,Other,Sales,Manager,Hydrabad,M.Com,8.2,663437.0,1.0,Yes,Hybrid,5.0,50,Yes,Yes,2019-08-26
+EMP00501,Vivaan Verma,53,Male,Marketing,Executive,Delhi NCR,MBA,3.6,823315.0,10.0,Yes,Hybrid,6.0,43.0,Yes,No,2019-03-13
+EMP00189,Sakshi Singh,38,Other,IT,,Chennai,B.Sc,12.1,1347029.0,4.0,No,Onsite,0.0,97,Yes,No,2019-11-16
+EMP00113,Ritesh Kumar,56,Unknown,IT,Data Analist,Nagpur,M.Com,5.0,324155.0,5.0,Yes,Hybrid,10.0,9,No,No,
+EMP00308,Muskan Gupta,37,Male,Marketing,Engineer,Bhopal,B.Tech,6.8,1268964.0,1.0,No,,6.0,43.0,No,No,2021-12-14
+EMP00479,Meera Nair,34,Male,Legal,HR Executive,Bangalore,M.Tech,5.0,1167239.0,5.0,No,Hybrid,5.0,0,No,No,2023-05-20
+EMP00253,Riya Jain,55,Female,Unknown,Manager,Ahemdabad,MBA,6.8,645165.0,4.0,No,Remote,5.0,41,Yes,No,2025-11-17
+EMP00335,Harsh Vardhan,54,Male,IT,Manager,Indore,M.Com,2.9,150000.0,9.0,No,Remote,6.0,71,Yes,No,2025-07-19
+EMP00721,Sanjay Mishra,38,Unknown,IT,Sales Executive,Pune,B.E.,8.1,1200000.0,5.0,No,Remote,0.0,35,Yes,No,
+EMP00044,Siddharth Jain,53,Other,HR,Engineer,Indore,B.Tech,6.8,1070000.0,4.0,No,Hybrid,7.0,20,No,No,
+EMP00140,Ritesh Kumar,47,Male,R&D,,Ahemdabad,B.E.,10.9,1295923.0,6.0,No,Remote,0.0,136,No,No,2024-04-15
+EMP00058,Meera Nair,36,Female,,Data Analist,Pune,B.Com,6.6,650000.0,1.0,Yes,Remote,3.0,71,Yes,No,2013-09-24
+EMP00067,Neha Mehta,38,Female,Operations,Engineer,Mumbai,B.E.,0.0,823315.0,3.0,No,Remote,8.0,55,No,No,2019-02-17
+EMP00162,Isha Kapoor,56,Female,Marketing,Data Analist,Hydrabad,M.Tech,1.2,823315.0,3.0,Yes,Remote,11.0,17,No,Yes,
+EMP00725,Isha Kapoor,57,Female,IT,Data Analist,Bangalore,BBA,7.3,575822.0,1.0,Yes,Hybrid,4.0,39,No,No,2025-04-24
+EMP00677,Aditya Singh,42,Female,IT,Data Analist,Bangalore,M.Tech,10.0,1500106.0,4.0,Yes,Remote,6.0,41,No,No,2019-05-28
+EMP00830,Karan Joshi,24,Other,Marketing,Recruiter,Bhopal,M.Com,5.0,764017.0,5.0,sometimes,Hybrid,3.0,36,No,No,2025-04-29
+EMP00789,Riya Jain,38,Male,HR,Data Analist,Jaipur,B.Tech,4.4,790674.0,1.0,No,Hybrid,7.0,43.0,No,No,2013-07-09
+EMP00707,Sakshi Singh,52,Female,IT,Data Analist,Bhopal,Unknown,2.4,484353.0,4.0,Yes,Remote,8.0,115,No,No,2015-11-27
+EMP00801,Aditya Singh,38,Male,IT,Data Analist,Indore,B.Tech,5.0,150000.0,4.0,unknown,Hybrid,15.0,100,Yes,No,2025-02-10
+EMP00392,Priya Verma,24,Female,Operations,Engineer,Hydrabad,B.Com,5.0,511145.0,10.0,No,Remote,0.0,63,Yes,No,2013-03-08
+EMP00527,Vivaan Verma,34,Other,Legal,Data Analist,Delhi NCR,B.E.,7.0,295156.0,1.0,No,Onsite,9.0,17,No,No,2026-01-05
+EMP00764,Karan Joshi,38,Unknown,HR,Business Development Executive,Jaipur,M.Tech,8.0,919784.0,1.0,Yes,Hybrid,5.0,0,Yes,Yes,2025-07-16
+EMP00076,Meera Nair,30,Other,,Executive,Kolkata,B.Tech,5.0,543950.0,0.0,No,Hybrid,5.0,61,Yes,No,2013-01-11
+EMP00080,Ritesh Kumar,48,Female,Operations,Manager,Jaipur,M.Tech,12.4,600000.0,3.0,No,Hybrid,9.0,11,Yes,No,2020-08-24
+EMP00535,Sneha Singh,52,Female,Operations,Engineer,Chennai,Diploma,10.9,1285167.0,0.0,Yes,Remote,7.0,66,Yes,No,2024-07-06
+EMP00059,Amit Kumar,38,Male,Finance,Executive,Ahemdabad,B.Com,10.6,1624663.0,2.0,No,Hybrid,9.0,15,No,No,2018-06-14
+EMP00614,Vivaan Verma,58,Unknown,Sales,Manager,Hydrabad,B.Com,8.3,1311688.0,5.0,Yes,Onsite,7.0,0,No,No,2014-12-21
+EMP00366,Manish Tiwari,39,Other,Customer Support,Quality Assurance,Ahemdabad,MBA,10.6,1135965.0,10.0,No,Remote,7.0,52,No,No,2022-04-10
+EMP00289,Akash Patel,38,Male,Finance,Data Analist,Pune,PHD,5.0,1220458.0,1.0,No,Remote,3.0,61,No,No,2018-12-18
+EMP00829,Isha Kapoor,38,Other,IT,Manager,Bhopal,B.Tech,6.8,650000.0,4.0,No,Remote,5.0,40,Yes,No,2020-10-02
+EMP00074,Karan Joshi,57,Female,Sales,Manager,Chennai,M.Com,0.0,724998.0,2.0,Yes,Hybrid,4.0,128,Yes,Yes,2018-10-05
+EMP00260,Ananya Sharma,47,Other,IT,Manager,Bangalore,Unknown,6.0,1162243.0,2.0,No,Onsite,0.0,33,No,No,
+EMP00312,Riya Jain,23,Other,HR,Engineer,Bangalore,M.Com,4.0,566527.0,3.0,Yes,Hybrid,10.0,53,No,No,2015-07-30
+EMP00672,Manish Tiwari,46,Female,Marketing,Engineer,Bhopal,BBA,8.0,754465.0,2.0,Yes,Remote,5.0,43.0,Yes,No,2025-05-03
+EMP00217,Sneha Singh,60,Female,Finance,Engineer,Unknown,B.Sc,2.6,1126663.0,3.0,No,Remote,5.0,22,Yes,No,2014-03-05
+EMP00292,Rahul Patel,40,Male,Engineering,Recruiter,Chennai,B.Sc,10.1,600000.0,2.0,Yes,Onsite,0.0,64,Yes,No,2022-01-13
+EMP00227,Komal Sharma,51,Female,Marketing,Executive,Bhopal,M.Com,6.8,848566.0,2.0,No,Onsite,6.0,26,Yes,No,2014-04-10
+EMP00468,Nisha Roy,34,Female,Sales,Engineer,Indore,Diploma,3.5,823315.0,3.0,Yes,Hybrid,6.0,25,No,No,2024-12-14
+EMP00050,Siddharth Jain,42,Male,Finance,Engineer,Chennai,B.E.,0.0,396651.0,4.0,Yes,Remote,5.0,2,No,Yes,2014-10-21
+EMP00153,Kavya  Gupta,51,Female,Unknown,Data Analist,Ahemdabad,MBA,6.8,987217.0,5.0,No,WHF,10.0,70,No,No,
+EMP00650,Riya Jain,23,Other,HR,Data Analist,Indore,B.E.,6.8,615519.0,4.0,,Remote,3.0,60,No,No,
+EMP00482,Ritesh Kumar,36,Female,HR,Engineer,Kolkata,B.Tech,0.0,450000.0,2.0,No,WFH,9.0,0,Yes,Yes,2025-04-30
+EMP00293,Sneha Singh,60,Male,Sales,Engineer,Bhopal,M.Tech,11.2,1219280.0,4.0,No,Remote,13.0,31,Yes,No,2025-09-03
+EMP00516,Isha Kapoor,59,Male,Operations,Executive,Pune,MBA,10.4,1038830.0,1.0,Yes,Onsite,15.0,85,No,No,2024-07-08
+EMP00246,Tanya Kapoor,46,Other,IT,Business Development Executive,Mumbai,M.Com,6.2,794434.0,2.0,Yes,Hybrid,2.0,62,Yes,No,2018-06-15
+EMP00297,Pooja Yadav,44,Male,IT,Quality Assurance,Jaipur,B.Tech,10.4,1423654.0,2.0,Yes,Onsite,2.0,43.0,No,No,2026-03-15
+EMP00250,Akash Patel,59,Female,IT,Engineer,Delhi NCR,PHD,20.0,1327458.0,5.0,No,Remote,12.0,45,No,Yes,2021-07-10
+EMP00839,Siddharth Jain,60,Other,Finance,Manager,Indore,B.Tech,5.5,871693.0,1.0,Yes,WHF,0.0,97,No,No,2018-10-04
+EMP00352,Neha Mehta,29,Female,IT,Manager,Nagpur,B.Com,4.6,1159426.0,2.0,No,Remote,8.0,104,Yes,Yes,2023-06-20
+EMP00362,Ananya Sharma,36,Female,IT,Manager,Bangalore,MCA,7.0,621730.0,2.0,Yes,Onsite,20.0,59,No,Yes,2024-09-29
+EMP00661,Isha Kapoor,40,Female,HR,Data Analist,Jaipur,MCA,0.1,150000.0,4.0,,Onsite,2.0,43.0,No,Yes,2013-09-07
+EMP00414,Vivaan Verma,26,Female,,Manager,Nagpur,B.Tech,6.8,1533562.0,5.0,Yes,Remote,12.0,40,No,No,2025-01-17
+EMP00464,Ritesh Kumar,53,Female,HR,Engineer,Indore,B.E.,6.8,1545917.0,5.0,No,Onsite,0.0,60,Yes,No,
+EMP00048,Muskan Gupta,36,Female,R&D,Data Analist,Bangalore,B.Tech,6.9,943500.0,3.0,No,Hybrid,20.0,40,No,No,
+EMP00117,Muskan Gupta,57,Male,,HR Executive,Mumbai,M.Tech,9.7,1206101.0,2.0,No,Remote,20.0,24,Yes,No,2024-11-12
+EMP00202,Siddharth Jain,48,Female,Marketing,Engineer,Bangalore,BBA,9.4,916705.0,3.0,Yes,Remote,5.0,75,No,No,2023-03-18
+EMP00763,Deepak Verma,37,Male,IT,Executive,Kolkata,MCA,2.3,500000.0,1.0,No,Hybrid,0.0,68,No,No,2016-05-09
+EMP00018,Muskan Gupta,50,Female,Marketing,Data Analist,Chennai,Unknown,8.0,823315.0,2.0,Yes,Remote,6.0,89,No,No,2021-09-15
+EMP00829,Isha Kapoor,38,Other,HR,Manager,Bhopal,B.Tech,6.8,1047879.0,4.0,No,Remote,5.0,40,Yes,No,2020-10-02
+EMP00625,Tanya Kapoor,21,Female,IT,Engineer,Mumbai,M.Tech,2.0,755851.0,9.0,No,Hybrid,3.0,63,No,No,2016-01-25
+EMP00325,Rahul Patel,59,Female,Customer Support,Manager,Jaipur,B.Sc,4.1,536762.0,1.0,No,Onsite,20.0,71,Yes,No,2016-02-29
+EMP00026,Muskan-Gupta,45,Male,R&D,Executive,Chennai,M.Tech,11.1,1362149.0,0.0,No,Hybrid,2.0,40,Yes,Yes,2017-11-20
+EMP00295,Meera Nair,28,Female,HR,Manager,Mumbai,B.Com,7.8,1151659.0,1.0,Yes,Remote,3.0,0,No,No,2017-09-26
+EMP00817,Aditya Singh,56,Male,Unknown,Engineer,Jaipur,Diploma,2.5,226631.0,9.0,Yes,Onsite,11.0,6,Yes,No,2017-11-19
+EMP00418,Muskan Gupta,27,Other,Operations,Unknown,Unknown,Unknown,5.7,1044412.0,2.0,No,Remote,13.0,7,Yes,No,2013-06-25
+EMP00624,Siddharth Jain,17,Other,,Engineer,Bhopal,BBA,0.0,150000.0,5.0,No,Remote,4.0,43.0,No,No,
+EMP00136,Akash Patel,40,Male,Customer Support,Manager,Mumbai,Unknown,11.5,536545.0,6.0,No,Remote,6.0,23,No,No,2026-03-01
+EMP00609,Neha Mehta,40,Other,IT,Engineer,Mumbai,M.Com,7.1,1366331.0,2.0,No,Onsite,1.0,54,No,No,2019-10-05
+EMP00776,Aarav Sharma,45,Female,Sales,Manager,Delhi NCR,PHD,10.0,1091599.0,3.0,Yes,Hybrid,7.0,22,No,No,
+EMP00762,Manish Tiwari,36,Other,,Data Analist,Delhi NCR,B.Tech,4.5,964829.0,1.0,Yes,Remote,0.0,100,Yes,No,2019-11-26
+EMP00481,Ritesh Kumar,40,Male,R&D,,Nagpur,M.Com,10.6,500000.0,5.0,No,Onsite,4.0,40,No,Yes,2016-10-29
+EMP00028,Neha Mehta,24,Female,Sales,Data Analist,Hydrabad,MBA,5.0,672584.0,2.0,,Remote,5.0,51,Yes,No,2021-08-20
+EMP00718,Aditya Singh,60,Other,Engineering,Data Analist,Pune,M.Tech,8.0,875316.0,6.0,No,unknown,11.0,43,Yes,No,2024-08-28
+EMP00439,Aditya Singh,38,Other,Legal,Recruiter,Hydrabad,B.Tech,2.1,800721.0,5.0,No,Hybrid,3.0,47,No,No,2013-03-14
+EMP00643,Nisha Roy,24,Female,Customer Support,Engineer,Bhopal,PHD,0.0,514455.0,3.0,No,Hybrid,6.0,17,Yes,No,2017-01-04
+EMP00029,Sakshi Singh,38,Male,R&D,Manager,Delhi NCR,BBA,1.5,823315.0,5.0,Yes,Remote,8.0,17,Yes,No,2019-09-10
+EMP00501,Vivaan Verma,53,Male,HR,Executive,Delhi NCR,MBA,3.6,500000.0,10.0,Yes,Hybrid,6.0,43.0,Yes,No,2019-03-13
+EMP00400,Pooja Yadav,35,Other,HR,Data Analist,Bangalore,MBA,5.3,500000.0,6.0,Yes,Remote,0.0,88,No,No,2015-09-18
+EMP00436,Isha Kapoor,58,Female,HR,,Kolkata,M.Com,6.8,775064.0,4.0,No,Onsite,6.0,66,Yes,No,2025-06-08
+EMP00413,Vivaan Verma,22,Male,IT,Business Development Executive,Hydrabad,MBA,3.0,814614.0,4.0,Yes,Hybrid,3.0,45,No,No,2020-07-22
+EMP00629,Harsh Vardhan,40,Female,IT,Data Analist,Nagpur,MBA,5.3,823315.0,2.0,Yes,Onsite,0.0,78,Yes,Yes,2014-08-22
+EMP00542,Manish Tiwari,47,Male,Finance,Data Analist,Indore,MBA,2.2,571689.0,5.0,Yes,Remote,6.0,40,Yes,Yes,2021-06-26
+EMP00078,Sakshi Singh,22,Other,IT,HR Executive,Pune,Diploma,3.0,907894.0,2.0,No,Hybrid,5.0,55,No,No,2016-01-13
+EMP00795,Vivaan Verma,47,Male,Customer Support,Engineer,Ahemdabad,B.Com,8.6,1226405.0,2.0,No,Onsite,8.0,20,Yes,No,2014-10-08
+EMP00258,Nisha  Roy,38,Male,Customer Support,,Mumbai,B.E.,5.0,823315.0,4.0,Yes,Hybrid,0.0,14,No,No,2018-07-23
