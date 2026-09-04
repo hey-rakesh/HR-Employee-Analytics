@@ -6,6 +6,11 @@ The project includes data cleaning, exploratory data analysis (EDA), data visual
 
 ---
 
+## 🌐 Live Demo
+
+🚀 [Click here to view the HR Employee Analytics Dashboard](https://hr-employee-analytics-dashboard-rakesh.streamlit.app/)
+
+---
 ## 🚀 Features
 
 * Employee workforce analysis
