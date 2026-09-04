@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-
+from pathlib import Path
 
 # --------------------------------------------------
 # PAGE CONFIG
@@ -19,16 +19,17 @@ st.set_page_config(
 # LOAD DATA
 # --------------------------------------------------
 
+
+
+
+
+BASE_DIR = Path(__file__).resolve().parent
+DATA_PATH = BASE_DIR / "data" / "emp_clean.csv"
+
+
 @st.cache_data
 def load_data():
-    df = pd.read_csv("D:\Jupiter\Employee_project\data\emp_clean.csv")
-
-
-    df["joining_date"] = pd.to_datetime(
-        df["joining_date"],
-        errors="coerce"
-    )
-
+    df = pd.read_csv(DATA_PATH)
     return df
 
 
