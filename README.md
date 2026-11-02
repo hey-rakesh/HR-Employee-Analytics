@@ -59,7 +59,7 @@ The project includes data cleaning, exploratory data analysis (EDA), data visual
 ## 📈 Key Analysis Performed
 
 * Employee distribution across departments and job roles
-* Gender and age distribution
+* Gender and age distribution with ques
 * Average salary comparison across departments
 * Relationship between experience and salary
 * Employee attrition rate analysis
