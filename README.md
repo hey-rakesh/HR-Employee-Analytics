@@ -30,7 +30,7 @@ The project includes data cleaning, exploratory data analysis (EDA), data visual
 * Total Employees
 * Average Salary
 * Average Age
-* Attrition Rate
+* Attrition Rates
 
 ### 👥 Workforce Analysis
 
